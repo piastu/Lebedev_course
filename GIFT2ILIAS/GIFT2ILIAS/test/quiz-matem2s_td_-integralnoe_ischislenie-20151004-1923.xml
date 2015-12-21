@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$course$/ФГОС2012/Блок2/Интегральное исчисление</text>
+
+    </category>
+  </question>
+
+
+
+<!-- question: 52896  -->
+  <question type="multichoice">
+    <name><text>Интегральное исчисление1</text>
+</name>
+    <questiontext format="html">
+<text><![CDATA[<img src="http://moodle-aael.intelbi.ru/file.php/84/FGOS2012/blok2/blok2-int-isch1.jpg" alt="blok2-int-ischisl1" title="blok2-int-ischisl1" border="0" hspace="0" vspace="0" width="475" height="495" />]]></text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+<text></text>
+    </generalfeedback>
+    <defaultgrade>2</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>      <text></text>
+</correctfeedback>
+    <partiallycorrectfeedback>      <text></text>
+</partiallycorrectfeedback>
+    <incorrectfeedback>      <text></text>
+</incorrectfeedback>
+    <answernumbering>none</answernumbering>
+      <answer fraction="100">
+        <text>
+1)
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="0">
+        <text>
+2)
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="0">
+        <text>
+3)
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="0">
+        <text>
+4)
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+</question>
+
+
+
+<!-- question: 52897  -->
+  <question type="multichoice">
+    <name><text>Интегральное исчисление2</text>
+</name>
+    <questiontext format="html">
+<text><![CDATA[<img src="http://moodle-aael.intelbi.ru/file.php/84/FGOS2012/blok2/blok2-int-isch2.jpg" alt="blok2-int-ischis2" title="blok2-int-ischis2" border="0" hspace="0" vspace="0" width="297" height="86" /><br />]]></text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+<text></text>
+    </generalfeedback>
+    <defaultgrade>2</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>      <text></text>
+</correctfeedback>
+    <partiallycorrectfeedback>      <text></text>
+</partiallycorrectfeedback>
+    <incorrectfeedback>      <text></text>
+</incorrectfeedback>
+    <answernumbering>none</answernumbering>
+      <answer fraction="0">
+        <text>
+[-2π/3; -1]
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="100">
+        <text>
+[0; 2π/3]
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="0">
+        <text>
+[-2π/3; 0]
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="0">
+        <text>
+[π/2; 2π/3]
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+</question>
+
+
+
+<!-- question: 52898  -->
+  <question type="multichoice">
+    <name><text>Интегральное исчисление3</text>
+</name>
+    <questiontext format="html">
+<text><![CDATA[<img src="http://moodle-aael.intelbi.ru/file.php/84/FGOS2012/blok2/blok2-int-isch3.jpg" alt="blok2-int-ischisl3" title="blok2-int-ischisl3" border="0" hspace="0" vspace="0" width="372" height="91" /><br />]]></text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+<text></text>
+    </generalfeedback>
+    <defaultgrade>2</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>      <text></text>
+</correctfeedback>
+    <partiallycorrectfeedback>      <text></text>
+</partiallycorrectfeedback>
+    <incorrectfeedback>      <text></text>
+</incorrectfeedback>
+    <answernumbering>none</answernumbering>
+      <answer fraction="0">
+        <text>
+<![CDATA[4<img src="http://moodle-aael.intelbi.ru/file.php/84/FGOS2012/blok2/koren2.jpg" alt="kor2" title="kor2" border="0" hspace="0" vspace="0" width="26" height="24" />]]>
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="100">
+        <text>
+0
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="0">
+        <text>
+1
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="0">
+        <text>
+π
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+</question>
+
+
+</quiz>

@@ -1,0 +1,219 @@
+  GIFT2ILIAS.Form1.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly GIFT2ILIAS, Version=1.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly DocumentFormat.OpenXml, Version=2.5.5631.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.DirectoryServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly Microsoft.VisualC, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class Data_Answer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 an_id : Public
+    System.String Text : Public
+    System.String Feedback : Public
+    Int32 Add_Yes : Public
+    Int32 Add_No : Public
+    Int32 order : Public
+    Int32 match_grp : Public
+Class Data_Question: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 quest_id : Public
+    Int32 an_type : Public
+    Int32 time_day : Public
+    Int32 time_month : Public
+    Int32 time_year : Public
+    Int32 time_hour : Public
+    Int32 time_min : Public
+    Int32 time_sec : Public
+    Int32 maxattempts : Public
+    Int32 feedback_setting : Public
+    Boolean shuffle : Public
+    Int32 temp_weight : Public
+    Int32 plus_count : Public
+    System.String Title : Public
+    System.String Text : Public
+    System.String Author : Public
+    System.Collections.Generic.List`1[Data_Answer] Answers : Public
+  Methods:
+    Add_Answer(String, String, Int32, Int32): PrivateScope, Public, HideBySig
+    Add_Answer(String, String, Int32): PrivateScope, Public, HideBySig
+Class Data_Pool: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 pool_id : Public
+    System.String Title : Public
+    System.String Language : Public
+    System.String Description : Public
+    System.Collections.Generic.List`1[System.String] Keywords : Public
+    System.Collections.Generic.List`1[Data_Question] Questions : Public
+Class Parser: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Parse(String, Encoding): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetQuestions(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Problem(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Generator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Generate(Data_Pool, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class QF_Converter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Parser ParserDelegate : Public
+    Generator GeneratorDelegate : Public
+  Methods:
+    SetParser(Parser): PrivateScope, Public, HideBySig
+    SetGenerator(Generator): PrivateScope, Public, HideBySig
+    Convert(String, String, String, String, String): PrivateScope, Public, HideBySig
+Class ILIAS_Generator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Generator
+  Fields:
+    ILIAS_Generator theSingleInstance : Public, Static
+  Methods:
+    Generate(Data_Pool, String): PrivateScope, Public, Virtual, HideBySig
+    Instance(): PrivateScope, Public, Static, HideBySig
+    GetName(): PrivateScope, Public, Virtual, HideBySig
+Class MoodleXML_Parser: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Parser
+  Fields:
+    Int32 MaxQuestion : Public
+    System.Collections.Generic.List`1[Data_Question] Q : Public
+    Boolean problem : Public
+  Methods:
+    GetQuestions(): PrivateScope, Public, Virtual, HideBySig
+    Problem(): PrivateScope, Public, Virtual, HideBySig
+    Parse(String, Encoding): PrivateScope, Public, Virtual, HideBySig
+    Instance(): PrivateScope, Public, Static, HideBySig
+    GetName(): PrivateScope, Public, Virtual, HideBySig
+Class AST_Parser: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Parser
+  Fields:
+    Int32 MaxQuestion : Public
+    System.Collections.Generic.List`1[Data_Question] Q : Public
+    Boolean problem : Public
+  Methods:
+    GetQuestions(): PrivateScope, Public, Virtual, HideBySig
+    Problem(): PrivateScope, Public, Virtual, HideBySig
+    Parse(String, Encoding): PrivateScope, Public, Virtual, HideBySig
+    Instance(): PrivateScope, Public, Static, HideBySig
+    GetName(): PrivateScope, Public, Virtual, HideBySig
+Class ConvertComponent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    ConvertComponent Parent : Public
+    System.Object Tag : Public
+    Int32 StateUndefined IsConst : Public, Static, HasDefault
+    Int32 StateWaiting IsConst : Public, Static, HasDefault
+    Int32 StateSuccess IsConst : Public, Static, HasDefault
+    Int32 StateError IsConst : Public, Static, HasDefault
+  Methods:
+    AddChild(ConvertComponent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DelChild(ConvertComponent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetChild(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ChildCount(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Convert(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetState(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetTitle(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetParent(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetParent(ConvertComponent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class ConvertTask: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ConvertComponent
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    QF_Converter C : Public
+    System.String InputFile : Public
+    System.String OutputDir : Public
+    System.String Encod : Public
+    System.String PoolTitle : Public
+    System.String PoolDescr : Public
+    System.String OutputFile : Public
+    Int32 State : Public
+  Methods:
+    CopyParams(ConvertTask): PrivateScope, Public, HideBySig
+    Convert(): PrivateScope, Public, Virtual, HideBySig
+    GetState(): PrivateScope, Public, Virtual, HideBySig
+    GetTitle(): PrivateScope, Public, Virtual, HideBySig
+Class ConvertGroup: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ConvertComponent
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[ConvertComponent] CTList : Public
+    System.String Title : Public
+  Methods:
+    CopyParams(ConvertGroup): PrivateScope, Public, HideBySig
+    AddChild(ConvertComponent): PrivateScope, Public, Virtual, HideBySig
+    DelChild(ConvertComponent): PrivateScope, Public, Virtual, HideBySig
+    Convert(): PrivateScope, Public, Virtual, HideBySig
+    GetState(): PrivateScope, Public, Virtual, HideBySig
+    GetChild(Int32): PrivateScope, Public, Virtual, HideBySig
+    ChildCount(): PrivateScope, Public, Virtual, HideBySig
+    GetTitle(): PrivateScope, Public, Virtual, HideBySig
+Class ConvertTasksPool: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Methods:
+    Instance(): PrivateScope, Public, Static, HideBySig
+    Get(QF_Converter, String, String, String, String, String): PrivateScope, Public, HideBySig
+    Get(): PrivateScope, Public, HideBySig
+    Put(ConvertTask): PrivateScope, Public, HideBySig
+Class Inform_Expert: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(ConvertComponent): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    ConvertComponent CTTree : Public
+  Methods:
+    WaitingCount(): PrivateScope, Public, HideBySig
+    WaitingCount(ConvertComponent): PrivateScope, Public, HideBySig
+    SuccessCount(): PrivateScope, Public, HideBySig
+    SuccessCount(ConvertComponent): PrivateScope, Public, HideBySig
+    ErrorCount(): PrivateScope, Public, HideBySig
+    ErrorCount(ConvertComponent): PrivateScope, Public, HideBySig
+    TotalCount(): PrivateScope, Public, HideBySig
+    TotalCount(ConvertComponent): PrivateScope, Public, HideBySig
+Class Facade: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Inform_Expert IE : Public
+    ConvertTasksPool CTPool : Public
+    ConvertComponent CTTree : Public
+    System.Windows.Forms.TreeView treeView_Tasks : Public
+  Methods:
+    SetCTPool(ConvertTasksPool): PrivateScope, Public, HideBySig
+    SetCTTree(ConvertComponent): PrivateScope, Public, HideBySig
+    SetTVTasks(TreeView): PrivateScope, Public, HideBySig
+    DrawTasks(): PrivateScope, Public, HideBySig
+    DrawTasks(ConvertComponent, TreeNodeCollection): PrivateScope, Public, HideBySig
+    AddConvertComponent(ConvertComponent, ConvertComponent): PrivateScope, Public, HideBySig
+    UpdateConvertTask(ConvertTask, ConvertTask): PrivateScope, Public, HideBySig
+    UpdateConvertGroup(ConvertGroup, ConvertGroup): PrivateScope, Public, HideBySig
+    DelConvertComponent(ConvertComponent): PrivateScope, Public, HideBySig
+    ShowState(ConvertComponent): PrivateScope, Public, HideBySig
+    DoTasks(): PrivateScope, Public, HideBySig
+    GetCTTree(): PrivateScope, Public, HideBySig
+Class GIFT2ILIAS.Form1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Facade F : Public

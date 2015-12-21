@@ -1,0 +1,301 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly Spire.License, Version=1.3.2.40, Culture=neutral, PublicKeyToken=b1144360237c8b3f: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class jp3E9FF5BED7F5: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(System.String, Int32, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String A 'get ' : 
+    Boolean B  'get ' : 
+    Int32 C    'get ' : 
+  Methods:
+    a(): PrivateScope, Public, HideBySig
+    b(): PrivateScope, Public, HideBySig
+    c(): PrivateScope, Public, HideBySig
+Class Spire.License.V1_1.LicenseInfo: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Spire.License.LicenseInfoAdapter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Version 'get set' : 
+    Spire.License.LicenseType Type 'get set' : 
+    System.String Username 'get set' : 
+    System.String Email 'get set' : 
+    System.String Organization 'get set' : 
+    System.DateTime LicensedDate 'get set' : 
+    Spire.License.Product[] Products 'get set' : 
+    Spire.License.Issuer Issuer 'get set' : 
+    Boolean IsUpdateRightExpired 'get set' : 
+  Methods:
+    get_Version(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Version(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Type(): PrivateScope, Public, HideBySig, SpecialName
+    set_Type(LicenseType): PrivateScope, Public, HideBySig, SpecialName
+    get_Username(): PrivateScope, Public, HideBySig, SpecialName
+    set_Username(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Email(): PrivateScope, Public, HideBySig, SpecialName
+    set_Email(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Organization(): PrivateScope, Public, HideBySig, SpecialName
+    set_Organization(String): PrivateScope, Public, HideBySig, SpecialName
+    get_LicensedDate(): PrivateScope, Public, HideBySig, SpecialName
+    set_LicensedDate(DateTime): PrivateScope, Public, HideBySig, SpecialName
+    get_Products(): PrivateScope, Public, HideBySig, SpecialName
+    set_Products(Product[]): PrivateScope, Public, HideBySig, SpecialName
+    get_Issuer(): PrivateScope, Public, HideBySig, SpecialName
+    set_Issuer(Issuer): PrivateScope, Public, HideBySig, SpecialName
+    get_IsUpdateRightExpired(): PrivateScope, Public, HideBySig, SpecialName
+    set_IsUpdateRightExpired(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    ConvertToCurrentVersion(): PrivateScope, Public, Virtual, HideBySig
+    ConvertFromCurrentVersion(LicenseInfo): PrivateScope, Public, Virtual, HideBySig
+Class Spire.License.LicenseInfoAdapter: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :Spire.License.BaseLicenseInfo
+  Methods:
+    ConvertToCurrentVersion(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ConvertFromCurrentVersion(LicenseInfo): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class Spire.License.LicenseProvider: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.LicenseProvider
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SetLicenseFileFullPath(String): PrivateScope, Public, Static, HideBySig
+    SetLicenseFileName(String): PrivateScope, Public, Static, HideBySig
+    GetLicenseFileName(): PrivateScope, Public, Static, HideBySig
+    SetLicenseFile(FileInfo): PrivateScope, Public, Static, HideBySig
+    SetLicenseFileStream(Stream): PrivateScope, Public, Static, HideBySig
+    SetLicenseKey(String): PrivateScope, Public, Static, HideBySig
+    ClearLicense(): PrivateScope, Public, Static, HideBySig
+    LoadLicense(): PrivateScope, Public, Static, HideBySig
+    GetLicense(LicenseContext, Type, Object, Boolean): PrivateScope, Public, Virtual, HideBySig
+Class Spire.License.BaseLicenseInfo: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :System.ComponentModel.License
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String LicenseKey 'get ' : 
+    System.String Key 'get set' : 
+    System.String Version 'get set' : 
+  Methods:
+    get_LicenseKey(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Key(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Key(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Version(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Version(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Dispose(): PrivateScope, Public, Virtual, HideBySig
+Class Spire.License.LicenseInfo: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Spire.License.LicenseInfoAdapter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String NO_LICENSE_MESSAGE = A valid license file couldn't be found, you can more help from http://www.e-iceblue.com/fqa/license.html. : Public, Static, Literal, HasDefault
+  Properties:
+    System.String Version 'get set' : 
+    Spire.License.LicenseType Type 'get set' : 
+    System.String Username 'get set' : 
+    System.String Email 'get set' : 
+    System.String Organization 'get set' : 
+    System.DateTime LicensedDate 'get set' : 
+    System.DateTime ExpiredDate 'get set' : 
+    Spire.License.Product[] Products 'get set' : 
+    Spire.License.Issuer Issuer 'get set' : 
+    Boolean IsUpdateRightExpired 'get set' : 
+  Methods:
+    get_Version(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Version(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Type(): PrivateScope, Public, HideBySig, SpecialName
+    set_Type(LicenseType): PrivateScope, Public, HideBySig, SpecialName
+    get_Username(): PrivateScope, Public, HideBySig, SpecialName
+    set_Username(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Email(): PrivateScope, Public, HideBySig, SpecialName
+    set_Email(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Organization(): PrivateScope, Public, HideBySig, SpecialName
+    set_Organization(String): PrivateScope, Public, HideBySig, SpecialName
+    get_LicensedDate(): PrivateScope, Public, HideBySig, SpecialName
+    set_LicensedDate(DateTime): PrivateScope, Public, HideBySig, SpecialName
+    get_ExpiredDate(): PrivateScope, Public, HideBySig, SpecialName
+    set_ExpiredDate(DateTime): PrivateScope, Public, HideBySig, SpecialName
+    get_Products(): PrivateScope, Public, HideBySig, SpecialName
+    set_Products(Product[]): PrivateScope, Public, HideBySig, SpecialName
+    get_Issuer(): PrivateScope, Public, HideBySig, SpecialName
+    set_Issuer(Issuer): PrivateScope, Public, HideBySig, SpecialName
+    get_IsUpdateRightExpired(): PrivateScope, Public, HideBySig, SpecialName
+    set_IsUpdateRightExpired(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    ConvertToCurrentVersion(): PrivateScope, Public, Virtual, HideBySig
+    ConvertFromCurrentVersion(LicenseInfo): PrivateScope, Public, Virtual, HideBySig
+Class Spire.License.Issuer: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Name 'get set' : 
+    System.String Email 'get set' : 
+    System.String Url 'get set' : 
+  Methods:
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    set_Name(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Email(): PrivateScope, Public, HideBySig, SpecialName
+    set_Email(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Url(): PrivateScope, Public, HideBySig, SpecialName
+    set_Url(String): PrivateScope, Public, HideBySig, SpecialName
+Class Spire.License.Product: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Name 'get set' : 
+    System.String Version 'get set' : 
+    Spire.License.LicenseSubscription Subscription 'get set' : 
+  Methods:
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    set_Name(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Version(): PrivateScope, Public, HideBySig, SpecialName
+    set_Version(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Subscription(): PrivateScope, Public, HideBySig, SpecialName
+    set_Subscription(LicenseSubscription): PrivateScope, Public, HideBySig, SpecialName
+Class Spire.License.LicenseSubscription: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 NumberOfPermittedDeveloper 'get set' : 
+    Int32 NumberOfPermittedSite 'get set' : 
+  Methods:
+    get_NumberOfPermittedDeveloper(): PrivateScope, Public, HideBySig, SpecialName
+    set_NumberOfPermittedDeveloper(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_NumberOfPermittedSite(): PrivateScope, Public, HideBySig, SpecialName
+    set_NumberOfPermittedSite(Int32): PrivateScope, Public, HideBySig, SpecialName
+Struct Spire.License.LicenseType: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Spire.License.LicenseType None = 0 : Public, Static, Literal, HasDefault
+    Spire.License.LicenseType Demo = 1 : Public, Static, Literal, HasDefault
+    Spire.License.LicenseType Runtime = 2 : Public, Static, Literal, HasDefault
+    Spire.License.LicenseType Temporary = 4 : Public, Static, Literal, HasDefault
+Class Spire.License.InternalLicense: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Spire.License.LicenseInfo License 'get set' : 
+    Spire.License.LicenseType LicenseType 'get set' : 
+    System.String ProductName 'get set' : 
+    System.String[] AssemblyList 'get set' : 
+  Methods:
+    get_License(): PrivateScope, Public, HideBySig, SpecialName
+    set_License(LicenseInfo): PrivateScope, Public, HideBySig, SpecialName
+    get_LicenseType(): PrivateScope, Public, HideBySig, SpecialName
+    set_LicenseType(LicenseType): PrivateScope, Public, HideBySig, SpecialName
+    get_ProductName(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProductName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_AssemblyList(): PrivateScope, Public, HideBySig, SpecialName
+    set_AssemblyList(String[]): PrivateScope, Public, HideBySig, SpecialName
+Class Spire.License.ReleaseDateAttribute: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String ReleaseDate 'get set' : 
+  Methods:
+    get_ReleaseDate(): PrivateScope, Public, HideBySig, SpecialName
+    set_ReleaseDate(String): PrivateScope, Public, HideBySig, SpecialName
+    GetReleaseDate(Assembly): PrivateScope, Public, Static, HideBySig
+Class Spire.License.PackageAttribute: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Name 'get set' : 
+    System.String Version 'get set' : 
+  Methods:
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    set_Name(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Version(): PrivateScope, Public, HideBySig, SpecialName
+    set_Version(String): PrivateScope, Public, HideBySig, SpecialName
+    GetPackage(Assembly): PrivateScope, Public, Static, HideBySig
+Class Spire.License.V1_2.LicenseInfo: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Spire.License.LicenseInfoAdapter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Version 'get set' : 
+    Spire.License.LicenseType Type 'get set' : 
+    System.String Username 'get set' : 
+    System.String Email 'get set' : 
+    System.String Organization 'get set' : 
+    System.DateTime LicensedDate 'get set' : 
+    System.DateTime ExpiredDate 'get set' : 
+    Spire.License.Product[] Products 'get set' : 
+    Spire.License.Issuer Issuer 'get set' : 
+    Boolean IsUpdateRightExpired 'get set' : 
+  Methods:
+    get_Version(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Version(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Type(): PrivateScope, Public, HideBySig, SpecialName
+    set_Type(LicenseType): PrivateScope, Public, HideBySig, SpecialName
+    get_Username(): PrivateScope, Public, HideBySig, SpecialName
+    set_Username(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Email(): PrivateScope, Public, HideBySig, SpecialName
+    set_Email(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Organization(): PrivateScope, Public, HideBySig, SpecialName
+    set_Organization(String): PrivateScope, Public, HideBySig, SpecialName
+    get_LicensedDate(): PrivateScope, Public, HideBySig, SpecialName
+    set_LicensedDate(DateTime): PrivateScope, Public, HideBySig, SpecialName
+    get_ExpiredDate(): PrivateScope, Public, HideBySig, SpecialName
+    set_ExpiredDate(DateTime): PrivateScope, Public, HideBySig, SpecialName
+    get_Products(): PrivateScope, Public, HideBySig, SpecialName
+    set_Products(Product[]): PrivateScope, Public, HideBySig, SpecialName
+    get_Issuer(): PrivateScope, Public, HideBySig, SpecialName
+    set_Issuer(Issuer): PrivateScope, Public, HideBySig, SpecialName
+    get_IsUpdateRightExpired(): PrivateScope, Public, HideBySig, SpecialName
+    set_IsUpdateRightExpired(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    ConvertToCurrentVersion(): PrivateScope, Public, Virtual, HideBySig
+    ConvertFromCurrentVersion(LicenseInfo): PrivateScope, Public, Virtual, HideBySig
+Class Spire.License.V1_0.LicenseSubscription: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 NumberOfPermitedDeveloper 'get set' : 
+    Int32 NumberOfPermitedSite 'get set' : 
+  Methods:
+    get_NumberOfPermitedDeveloper(): PrivateScope, Public, HideBySig, SpecialName
+    set_NumberOfPermitedDeveloper(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_NumberOfPermitedSite(): PrivateScope, Public, HideBySig, SpecialName
+    set_NumberOfPermitedSite(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class Spire.License.V1_0.LicenseInfo: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Spire.License.LicenseInfoAdapter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Version 'get set' : 
+    Spire.License.LicenseType Type 'get set' : 
+    System.String Username 'get set' : 
+    System.String Email 'get set' : 
+    System.String Organization 'get set' : 
+    System.DateTime LicensedDate 'get set' : 
+    Spire.License.V1_0.Product[] Products 'get set' : 
+    Spire.License.Issuer Issuer 'get set' : 
+    Boolean IsUpdateRightExpired 'get set' : 
+  Methods:
+    get_Version(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Version(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Type(): PrivateScope, Public, HideBySig, SpecialName
+    set_Type(LicenseType): PrivateScope, Public, HideBySig, SpecialName
+    get_Username(): PrivateScope, Public, HideBySig, SpecialName
+    set_Username(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Email(): PrivateScope, Public, HideBySig, SpecialName
+    set_Email(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Organization(): PrivateScope, Public, HideBySig, SpecialName
+    set_Organization(String): PrivateScope, Public, HideBySig, SpecialName
+    get_LicensedDate(): PrivateScope, Public, HideBySig, SpecialName
+    set_LicensedDate(DateTime): PrivateScope, Public, HideBySig, SpecialName
+    get_Products(): PrivateScope, Public, HideBySig, SpecialName
+    set_Products(Product[]): PrivateScope, Public, HideBySig, SpecialName
+    get_Issuer(): PrivateScope, Public, HideBySig, SpecialName
+    set_Issuer(Issuer): PrivateScope, Public, HideBySig, SpecialName
+    get_IsUpdateRightExpired(): PrivateScope, Public, HideBySig, SpecialName
+    set_IsUpdateRightExpired(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    Dispose(): PrivateScope, Public, Virtual, HideBySig
+    ConvertToCurrentVersion(): PrivateScope, Public, Virtual, HideBySig
+    ConvertFromCurrentVersion(LicenseInfo): PrivateScope, Public, Virtual, HideBySig
+Class Spire.License.V1_0.Product: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Name 'get set' : 
+    System.String Version 'get set' : 
+    Spire.License.V1_0.LicenseSubscription Subscription 'get set' : 
+  Methods:
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    set_Name(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Version(): PrivateScope, Public, HideBySig, SpecialName
+    set_Version(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Subscription(): PrivateScope, Public, HideBySig, SpecialName
+    set_Subscription(LicenseSubscription): PrivateScope, Public, HideBySig, SpecialName

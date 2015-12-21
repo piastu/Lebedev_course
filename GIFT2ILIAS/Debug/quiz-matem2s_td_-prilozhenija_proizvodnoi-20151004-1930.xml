@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$course$/ФГОС2012/Приложения производной</text>
+
+    </category>
+  </question>
+
+
+
+<!-- question: 52845  -->
+  <question type="multichoice">
+    <name><text>Приложения производной1</text>
+</name>
+    <questiontext format="html">
+<text><![CDATA[<font size="4" face="arial, helvetica, sans-serif">Минимум функции <b><i><span lang="EN-US">f</span>(<span lang="EN-US">x</span>) = <span lang="EN-US">x</span><sup>3</sup> – <span lang="EN-US">x</span><sup>2</sup> – <span lang="EN-US">x</span></i></b><span lang="EN-US"> </span>равен …</font>]]></text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+<text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>      <text></text>
+</correctfeedback>
+    <partiallycorrectfeedback>      <text></text>
+</partiallycorrectfeedback>
+    <incorrectfeedback>      <text></text>
+</incorrectfeedback>
+    <answernumbering>none</answernumbering>
+      <answer fraction="0">
+        <text>
+1
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="100">
+        <text>
+-1
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="0">
+        <text>
+-1/3
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="0">
+        <text>
+-3
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+</question>
+
+
+
+<!-- question: 52846  -->
+  <question type="multichoice">
+    <name><text>Приложения производной2</text>
+</name>
+    <questiontext format="html">
+<text><![CDATA[<p class="MsoNormal"><font size="4" face="arial, helvetica, sans-serif">Уравнение касательной к графику функции <b><i><span lang="EN-US">f</span>(</i></b><b><i><span lang="EN-US">x</span>) = </i></b><b><i><span lang="EN-US">x</span><sup>2</sup> – 1</i></b> в его точке с
+абсциссой <b><i><span lang="EN-US">x</span><sub>0</sub> =
+2</i></b> имеет вид …</font></p>]]></text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+<text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>      <text></text>
+</correctfeedback>
+    <partiallycorrectfeedback>      <text></text>
+</partiallycorrectfeedback>
+    <incorrectfeedback>      <text></text>
+</incorrectfeedback>
+    <answernumbering>none</answernumbering>
+      <answer fraction="0">
+        <text>
+y = 4x + 11 
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="100">
+        <text>
+y = 4x – 5
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="0">
+        <text>
+y = -4x + 11
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="0">
+        <text>
+y = 2x – 1
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+</question>
+
+
+
+<!-- question: 52847  -->
+  <question type="multichoice">
+    <name><text>Приложения производной3</text>
+</name>
+    <questiontext format="html">
+<text><![CDATA[<p class="MsoNormal"><p class="MsoNormal"><font size="4" face="arial, helvetica, sans-serif">Материальная точка движется прямолинейно по закону <b><i><span lang="EN-US">x</span>(</i></b><b><i><span lang="EN-US">t</span>) = </i></b><b><i><span lang="EN-US">t</span><sup>3</sup>/3 – </i></b><b><i><span lang="EN-US">t</span><sup>2</sup> + 3</i></b><b><i><span lang="EN-US">t</span></i></b>. Тогда скорость
+точки в момент времени <b><i><span lang="EN-US">t</span> = 1</i></b> равна …</font></p></p>]]></text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+<text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>      <text></text>
+</correctfeedback>
+    <partiallycorrectfeedback>      <text></text>
+</partiallycorrectfeedback>
+    <incorrectfeedback>      <text></text>
+</incorrectfeedback>
+    <answernumbering>none</answernumbering>
+      <answer fraction="0">
+        <text>
+3
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="100">
+        <text>
+2
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="0">
+        <text>
+4
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="0">
+        <text>
+6
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+</question>
+
+
+
+<!-- question: 52848  -->
+  <question type="multichoice">
+    <name><text>Приложения производной4</text>
+</name>
+    <questiontext format="html">
+<text><![CDATA[<p class="MsoNormal"></p><p class="MsoNormal"><font size="4" face="arial, helvetica, sans-serif">Максимум функции <b><i><span lang="EN-US">f</span>(<span lang="EN-US">x</span>) = <span lang="EN-US">x</span><sup>3</sup> + 2<span lang="EN-US">x</span><sup>2</sup> + <span lang="EN-US">x</span></i></b><span lang="EN-US"> </span>равен …</font></p><p></p>]]></text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+<text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>      <text></text>
+</correctfeedback>
+    <partiallycorrectfeedback>      <text></text>
+</partiallycorrectfeedback>
+    <incorrectfeedback>      <text></text>
+</incorrectfeedback>
+    <answernumbering>none</answernumbering>
+      <answer fraction="0">
+        <text>
+-4/27
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="100">
+        <text>
+0
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="0">
+        <text>
+-1/3
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="0">
+        <text>
+-1
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+</question>
+
+
+
+<!-- question: 52849  -->
+  <question type="multichoice">
+    <name><text>Приложения производной5</text>
+</name>
+    <questiontext format="html">
+<text><![CDATA[<p class="MsoNormal"></p><p class="MsoNormal"><font size="4" face="arial, helvetica, sans-serif">Наибольшее значение функции <b><i><span lang="EN-US">f</span>(<span lang="EN-US">x</span>) = <span lang="EN-US">x</span><sup>2</sup> – 4<span lang="EN-US">x</span> +4</i></b> на отрезке [<b><i>0; 3</i></b>] равно …</font></p><p></p>]]></text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+<text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>      <text></text>
+</correctfeedback>
+    <partiallycorrectfeedback>      <text></text>
+</partiallycorrectfeedback>
+    <incorrectfeedback>      <text></text>
+</incorrectfeedback>
+    <answernumbering>none</answernumbering>
+      <answer fraction="0">
+        <text>
+1
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="100">
+        <text>
+4
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="0">
+        <text>
+2
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="0">
+        <text>
+16
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+</question>
+
+
+</quiz>

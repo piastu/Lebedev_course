@@ -1,0 +1,253 @@
+  Bytescout.Document.Internal.Doc.Templates.en-Normal-2010.dot - Embedded, ContainedInManifestFile, 
+  Bytescout.Document.Internal.Doc.Templates.en-Normal-1997.dot - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v2.0.50727
+Assembly Bytescout.Document, Version=1.0.0.90, Culture=neutral, PublicKeyToken=f7dd1bd9d40a50eb: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class Bytescout.Document.Block: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+Class Bytescout.Document.Document: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Bytescout.Document.DocumentFormat): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    System.String RegistrationName 'set' : 
+    System.String RegistrationKey 'set' : 
+    Bytescout.Document.DocumentProperties Properties 'get ' : 
+    Int32 ParagraphCount 'get ' : 
+  Methods:
+    set_RegistrationName(String): PrivateScope, Public, HideBySig, SpecialName
+    set_RegistrationKey(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Properties(): PrivateScope, Public, HideBySig, SpecialName
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Open(String): PrivateScope, Public, HideBySig
+    Open(Stream): PrivateScope, Public, HideBySig
+    Save(String): PrivateScope, Public, HideBySig
+    Save(String, DocumentFormat): PrivateScope, Public, HideBySig
+    Save(Stream, DocumentFormat): PrivateScope, Public, HideBySig
+    GetBytes(DocumentFormat): PrivateScope, Public, HideBySig
+    Clear(): PrivateScope, Public, HideBySig
+    get_ParagraphCount(): PrivateScope, Public, HideBySig, SpecialName
+    GetParagraph(Int32): PrivateScope, Public, HideBySig
+    FindParagraph(Paragraph): PrivateScope, Public, HideBySig
+    AddParagraph(): PrivateScope, Public, HideBySig
+    InsertParagraph(Paragraph): PrivateScope, Public, HideBySig
+    InsertParagraph(Int32): PrivateScope, Public, HideBySig
+    RemoveParagraph(Paragraph): PrivateScope, Public, HideBySig
+    RemoveParagraph(Int32): PrivateScope, Public, HideBySig
+    FindText(String): PrivateScope, Public, HideBySig
+    FindText(Int32, String): PrivateScope, Public, HideBySig
+    FindText(Int32, String, Boolean): PrivateScope, Public, HideBySig
+    ReplaceText(String, String): PrivateScope, Public, HideBySig
+    ReplaceText(String, String, Boolean): PrivateScope, Public, HideBySig
+    ReplaceText(Int32, String, String): PrivateScope, Public, HideBySig
+    ReplaceText(Int32, String, String, Boolean): PrivateScope, Public, HideBySig
+    ReplaceText(Int32, String, String, Boolean, Boolean): PrivateScope, Public, HideBySig
+Class Bytescout.Document.DocumentException: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Exception
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Bytescout.Document.DocumentFont: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Properties:
+    System.String Name 'get set' : 
+  Methods:
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    set_Name(String): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Struct Bytescout.Document.DocumentFormat: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Bytescout.Document.DocumentFormat Unknown = 0 : Public, Static, Literal, HasDefault
+    Bytescout.Document.DocumentFormat OpenXml = 1 : Public, Static, Literal, HasDefault
+    Bytescout.Document.DocumentFormat Doc = 2 : Public, Static, Literal, HasDefault
+Class Bytescout.Document.DocumentProperties: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Properties:
+    System.String Creator 'get ' : 
+    Int32 Revision 'get ' : 
+    System.String LastModifiedBy 'get ' : 
+    System.DateTime Created 'get ' : 
+    System.DateTime Modified 'get ' : 
+    System.String Title 'get ' : 
+    System.String Subject 'get ' : 
+    System.String Keywords 'get ' : 
+    System.String Description 'get ' : 
+    System.String Category 'get ' : 
+    System.String ContentStatus 'get ' : 
+  Methods:
+    get_Creator(): PrivateScope, Public, HideBySig, SpecialName
+    get_Revision(): PrivateScope, Public, HideBySig, SpecialName
+    get_LastModifiedBy(): PrivateScope, Public, HideBySig, SpecialName
+    get_Created(): PrivateScope, Public, HideBySig, SpecialName
+    get_Modified(): PrivateScope, Public, HideBySig, SpecialName
+    get_Title(): PrivateScope, Public, HideBySig, SpecialName
+    get_Subject(): PrivateScope, Public, HideBySig, SpecialName
+    get_Keywords(): PrivateScope, Public, HideBySig, SpecialName
+    get_Description(): PrivateScope, Public, HideBySig, SpecialName
+    get_Category(): PrivateScope, Public, HideBySig, SpecialName
+    get_ContentStatus(): PrivateScope, Public, HideBySig, SpecialName
+Struct Bytescout.Document.HighlightColor: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Bytescout.Document.HighlightColor Black = 0 : Public, Static, Literal, HasDefault
+    Bytescout.Document.HighlightColor Blue = 255 : Public, Static, Literal, HasDefault
+    Bytescout.Document.HighlightColor Cyan = 65535 : Public, Static, Literal, HasDefault
+    Bytescout.Document.HighlightColor DarkBlue = 139 : Public, Static, Literal, HasDefault
+    Bytescout.Document.HighlightColor DarkCyan = 35723 : Public, Static, Literal, HasDefault
+    Bytescout.Document.HighlightColor DarkGray = 11119017 : Public, Static, Literal, HasDefault
+    Bytescout.Document.HighlightColor DarkGreen = 25600 : Public, Static, Literal, HasDefault
+    Bytescout.Document.HighlightColor DarkMagenta = 8388736 : Public, Static, Literal, HasDefault
+    Bytescout.Document.HighlightColor DarkRed = 9109504 : Public, Static, Literal, HasDefault
+    Bytescout.Document.HighlightColor DarkYellow = 8421376 : Public, Static, Literal, HasDefault
+    Bytescout.Document.HighlightColor Green = 65280 : Public, Static, Literal, HasDefault
+    Bytescout.Document.HighlightColor LightGray = 13882323 : Public, Static, Literal, HasDefault
+    Bytescout.Document.HighlightColor Magenta = 16711935 : Public, Static, Literal, HasDefault
+    Bytescout.Document.HighlightColor None = 16711936 : Public, Static, Literal, HasDefault
+    Bytescout.Document.HighlightColor Red = 16711680 : Public, Static, Literal, HasDefault
+    Bytescout.Document.HighlightColor White = 16777215 : Public, Static, Literal, HasDefault
+    Bytescout.Document.HighlightColor Yellow = 16776960 : Public, Static, Literal, HasDefault
+Class Bytescout.Document.Paragraph: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Bytescout.Document.Block
+  Properties:
+    Bytescout.Document.ParagraphProperties Properties 'get ' : 
+    Int32 TextRunCount 'get ' : 
+    System.String Text 'get set' : 
+  Methods:
+    get_Properties(): PrivateScope, Public, HideBySig, SpecialName
+    get_TextRunCount(): PrivateScope, Public, HideBySig, SpecialName
+    get_Text(): PrivateScope, Public, HideBySig, SpecialName
+    set_Text(String): PrivateScope, Public, HideBySig, SpecialName
+    FindText(String): PrivateScope, Public, HideBySig
+    FindText(Int32, String): PrivateScope, Public, HideBySig
+    FindText(Int32, String, Boolean): PrivateScope, Public, HideBySig
+    ReplaceText(String, String): PrivateScope, Public, HideBySig
+    ReplaceText(String, String, Boolean): PrivateScope, Public, HideBySig
+    ReplaceText(Int32, String, String): PrivateScope, Public, HideBySig
+    ReplaceText(Int32, String, String, Boolean): PrivateScope, Public, HideBySig
+    ReplaceText(Int32, String, String, Boolean, Boolean): PrivateScope, Public, HideBySig
+    RemoveChars(Int32, Int32): PrivateScope, Public, HideBySig
+    InsertChars(Int32, String): PrivateScope, Public, HideBySig
+    SetChars(Int32, String): PrivateScope, Public, HideBySig
+    Clear(): PrivateScope, Public, HideBySig
+    GetTextRun(Int32): PrivateScope, Public, HideBySig
+    FindTextRun(TextRun): PrivateScope, Public, HideBySig
+    AddTextRun(): PrivateScope, Public, HideBySig
+    InsertTextRun(TextRun): PrivateScope, Public, HideBySig
+    InsertTextRun(Int32): PrivateScope, Public, HideBySig
+    RemoveTextRun(TextRun): PrivateScope, Public, HideBySig
+    RemoveTextRun(Int32): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Struct Bytescout.Document.ParagraphAlignment: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Bytescout.Document.ParagraphAlignment Left = 0 : Public, Static, Literal, HasDefault
+    Bytescout.Document.ParagraphAlignment Center = 1 : Public, Static, Literal, HasDefault
+    Bytescout.Document.ParagraphAlignment Right = 2 : Public, Static, Literal, HasDefault
+    Bytescout.Document.ParagraphAlignment Justify = 3 : Public, Static, Literal, HasDefault
+    Bytescout.Document.ParagraphAlignment Distribute = 4 : Public, Static, Literal, HasDefault
+    Bytescout.Document.ParagraphAlignment JustifyMedium = 5 : Public, Static, Literal, HasDefault
+    Bytescout.Document.ParagraphAlignment JustifyHi = 7 : Public, Static, Literal, HasDefault
+    Bytescout.Document.ParagraphAlignment JustifyLow = 8 : Public, Static, Literal, HasDefault
+    Bytescout.Document.ParagraphAlignment ThaiJustify = 9 : Public, Static, Literal, HasDefault
+Class Bytescout.Document.ParagraphProperties: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Properties:
+    Bytescout.Document.ParagraphAlignment Alignment 'get set' : 
+    Boolean KeepTogether 'get set' : 
+    Boolean KeepWithNext 'get set' : 
+    Boolean PageBreakBefore 'get set' : 
+  Methods:
+    get_Alignment(): PrivateScope, Public, HideBySig, SpecialName
+    set_Alignment(ParagraphAlignment): PrivateScope, Public, HideBySig, SpecialName
+    get_KeepTogether(): PrivateScope, Public, HideBySig, SpecialName
+    set_KeepTogether(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_KeepWithNext(): PrivateScope, Public, HideBySig, SpecialName
+    set_KeepWithNext(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_PageBreakBefore(): PrivateScope, Public, HideBySig, SpecialName
+    set_PageBreakBefore(Boolean): PrivateScope, Public, HideBySig, SpecialName
+Class Bytescout.Document.TextRun: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Properties:
+    Bytescout.Document.TextRunProperties Properties 'get ' : 
+    System.String Text 'get set' : 
+  Methods:
+    get_Properties(): PrivateScope, Public, HideBySig, SpecialName
+    get_Text(): PrivateScope, Public, HideBySig, SpecialName
+    set_Text(String): PrivateScope, Public, HideBySig, SpecialName
+    Clear(): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class Bytescout.Document.TextRunProperties: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Properties:
+    Boolean Bold 'get set' : 
+    Boolean Italic 'get set' : 
+    Boolean StrikeThrough 'get set' : 
+    Boolean DoubleStrikeThrough 'get set' : 
+    Bytescout.Document.HighlightColor HighlightColor 'get set' : 
+    System.Drawing.Color Color 'get set' : 
+    System.Drawing.Color UnderlineColor 'get set' : 
+    Bytescout.Document.Underline Underline 'get set' : 
+    Bytescout.Document.VerticalPositioning VerticalAlign 'get set' : 
+    Bytescout.Document.DocumentFont Font 'get ' : 
+    Int32 Scaling 'get set' : 
+    System.Globalization.CultureInfo Language 'get set' : 
+  Methods:
+    get_Bold(): PrivateScope, Public, HideBySig, SpecialName
+    set_Bold(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Italic(): PrivateScope, Public, HideBySig, SpecialName
+    set_Italic(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_StrikeThrough(): PrivateScope, Public, HideBySig, SpecialName
+    set_StrikeThrough(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_DoubleStrikeThrough(): PrivateScope, Public, HideBySig, SpecialName
+    set_DoubleStrikeThrough(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_HighlightColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_HighlightColor(HighlightColor): PrivateScope, Public, HideBySig, SpecialName
+    get_Color(): PrivateScope, Public, HideBySig, SpecialName
+    set_Color(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_UnderlineColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_UnderlineColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_Underline(): PrivateScope, Public, HideBySig, SpecialName
+    set_Underline(Underline): PrivateScope, Public, HideBySig, SpecialName
+    get_VerticalAlign(): PrivateScope, Public, HideBySig, SpecialName
+    set_VerticalAlign(VerticalPositioning): PrivateScope, Public, HideBySig, SpecialName
+    get_Font(): PrivateScope, Public, HideBySig, SpecialName
+    get_Scaling(): PrivateScope, Public, HideBySig, SpecialName
+    set_Scaling(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Language(): PrivateScope, Public, HideBySig, SpecialName
+    set_Language(CultureInfo): PrivateScope, Public, HideBySig, SpecialName
+Struct Bytescout.Document.Underline: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Bytescout.Document.Underline None = 0 : Public, Static, Literal, HasDefault
+    Bytescout.Document.Underline Single = 1 : Public, Static, Literal, HasDefault
+    Bytescout.Document.Underline Words = 2 : Public, Static, Literal, HasDefault
+    Bytescout.Document.Underline Double = 3 : Public, Static, Literal, HasDefault
+    Bytescout.Document.Underline Dotted = 4 : Public, Static, Literal, HasDefault
+    Bytescout.Document.Underline Thick = 6 : Public, Static, Literal, HasDefault
+    Bytescout.Document.Underline Dash = 7 : Public, Static, Literal, HasDefault
+    Bytescout.Document.Underline DotDash = 9 : Public, Static, Literal, HasDefault
+    Bytescout.Document.Underline DotDotDash = 10 : Public, Static, Literal, HasDefault
+    Bytescout.Document.Underline Wavy = 11 : Public, Static, Literal, HasDefault
+    Bytescout.Document.Underline DottedHeavy = 20 : Public, Static, Literal, HasDefault
+    Bytescout.Document.Underline DashHeavy = 23 : Public, Static, Literal, HasDefault
+    Bytescout.Document.Underline DotDashHeavy = 25 : Public, Static, Literal, HasDefault
+    Bytescout.Document.Underline DotDotDashHeavy = 26 : Public, Static, Literal, HasDefault
+    Bytescout.Document.Underline WavyHeavy = 27 : Public, Static, Literal, HasDefault
+    Bytescout.Document.Underline DashLong = 39 : Public, Static, Literal, HasDefault
+    Bytescout.Document.Underline WavyDouble = 43 : Public, Static, Literal, HasDefault
+    Bytescout.Document.Underline DashLongHeavy = 55 : Public, Static, Literal, HasDefault
+Struct Bytescout.Document.VerticalPositioning: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Bytescout.Document.VerticalPositioning Baseline = 0 : Public, Static, Literal, HasDefault
+    Bytescout.Document.VerticalPositioning Superscript = 1 : Public, Static, Literal, HasDefault
+    Bytescout.Document.VerticalPositioning Subscript = 2 : Public, Static, Literal, HasDefault

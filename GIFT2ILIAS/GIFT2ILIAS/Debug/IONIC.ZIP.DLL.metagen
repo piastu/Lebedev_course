@@ -1,0 +1,1172 @@
+  Ionic.Zip.Forms.PasswordDialog.resources - Embedded, ContainedInManifestFile, 
+  Ionic.Zip.WinFormsSelfExtractorStub.resources - Embedded, ContainedInManifestFile, 
+  Ionic.Zip.Forms.ZipContentsDialog.resources - Embedded, ContainedInManifestFile, 
+  Ionic.Zip.Resources.ZippedResources.zip - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v2.0.50727
+Assembly Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Struct Ionic.Zip.ZipEntrySource: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Ionic.Zip.ZipEntrySource None = 0 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipEntrySource FileSystem = 1 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipEntrySource Stream = 2 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipEntrySource ZipFile = 3 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipEntrySource WriteDelegate = 4 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipEntrySource JitStream = 5 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipEntrySource ZipOutputStream = 6 : Public, Static, Literal, HasDefault
+Class Ionic.Zip.ZipOutputStream: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.IO.Stream
+    Void .ctor(System.IO.Stream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Password 'set' : 
+    Ionic.Zip.EncryptionAlgorithm Encryption 'get set' : 
+    Int32 CodecBufferSize 'get set' : 
+    Ionic.Zlib.CompressionStrategy Strategy 'get set' : 
+    Ionic.Zip.ZipEntryTimestamp Timestamp 'get set' : 
+    Ionic.Zlib.CompressionLevel CompressionLevel 'get set' : 
+    Ionic.Zip.CompressionMethod CompressionMethod 'get set' : 
+    System.String Comment 'get set' : 
+    Ionic.Zip.Zip64Option EnableZip64 'get set' : 
+    Boolean OutputUsedZip64 'get ' : 
+    Boolean IgnoreCase 'get set' : 
+    Boolean UseUnicodeAsNecessary 'get set' :  (Obsolete)
+    System.Text.Encoding ProvisionalAlternateEncoding 'get set' :  (Obsolete)
+    System.Text.Encoding AlternateEncoding 'get set' : 
+    Ionic.Zip.ZipOption AlternateEncodingUsage 'get set' : 
+    System.Text.Encoding DefaultEncoding 'get ' : 
+    Int64 ParallelDeflateThreshold 'get set' : 
+    Int32 ParallelDeflateMaxBufferPairs 'get set' : 
+    Boolean CanRead 'get ' : 
+    Boolean CanSeek 'get ' : 
+    Boolean CanWrite 'get ' : 
+    Int64 Length 'get ' : 
+    Int64 Position 'get set' : 
+  Methods:
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    set_Password(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Encryption(): PrivateScope, Public, HideBySig, SpecialName
+    set_Encryption(EncryptionAlgorithm): PrivateScope, Public, HideBySig, SpecialName
+    get_CodecBufferSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_CodecBufferSize(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Strategy(): PrivateScope, Public, HideBySig, SpecialName
+    set_Strategy(CompressionStrategy): PrivateScope, Public, HideBySig, SpecialName
+    get_Timestamp(): PrivateScope, Public, HideBySig, SpecialName
+    set_Timestamp(ZipEntryTimestamp): PrivateScope, Public, HideBySig, SpecialName
+    get_CompressionLevel(): PrivateScope, Public, HideBySig, SpecialName
+    set_CompressionLevel(CompressionLevel): PrivateScope, Public, HideBySig, SpecialName
+    get_CompressionMethod(): PrivateScope, Public, HideBySig, SpecialName
+    set_CompressionMethod(CompressionMethod): PrivateScope, Public, HideBySig, SpecialName
+    get_Comment(): PrivateScope, Public, HideBySig, SpecialName
+    set_Comment(String): PrivateScope, Public, HideBySig, SpecialName
+    get_EnableZip64(): PrivateScope, Public, HideBySig, SpecialName
+    set_EnableZip64(Zip64Option): PrivateScope, Public, HideBySig, SpecialName
+    get_OutputUsedZip64(): PrivateScope, Public, HideBySig, SpecialName
+    get_IgnoreCase(): PrivateScope, Public, HideBySig, SpecialName
+    set_IgnoreCase(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_UseUnicodeAsNecessary(): PrivateScope, Public, HideBySig, SpecialName
+    set_UseUnicodeAsNecessary(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ProvisionalAlternateEncoding(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProvisionalAlternateEncoding(Encoding): PrivateScope, Public, HideBySig, SpecialName
+    get_AlternateEncoding(): PrivateScope, Public, HideBySig, SpecialName
+    set_AlternateEncoding(Encoding): PrivateScope, Public, HideBySig, SpecialName
+    get_AlternateEncodingUsage(): PrivateScope, Public, HideBySig, SpecialName
+    set_AlternateEncodingUsage(ZipOption): PrivateScope, Public, HideBySig, SpecialName
+    get_DefaultEncoding(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_ParallelDeflateThreshold(Int64): PrivateScope, Public, HideBySig, SpecialName
+    get_ParallelDeflateThreshold(): PrivateScope, Public, HideBySig, SpecialName
+    get_ParallelDeflateMaxBufferPairs(): PrivateScope, Public, HideBySig, SpecialName
+    set_ParallelDeflateMaxBufferPairs(Int32): PrivateScope, Public, HideBySig, SpecialName
+    ContainsEntry(String): PrivateScope, Public, HideBySig
+    Write(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    PutNextEntry(String): PrivateScope, Public, HideBySig
+    get_CanRead(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanSeek(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanWrite(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Length(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Position(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Position(Int64): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Flush(): PrivateScope, Public, Virtual, HideBySig
+    Read(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    Seek(Int64, SeekOrigin): PrivateScope, Public, Virtual, HideBySig
+    SetLength(Int64): PrivateScope, Public, Virtual, HideBySig
+Class Ionic.Zip.ZipInputStream: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.IO.Stream
+    Void .ctor(System.IO.Stream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Text.Encoding ProvisionalAlternateEncoding 'get set' : 
+    Int32 CodecBufferSize 'get set' : 
+    System.String Password 'set' : 
+    Boolean CanRead 'get ' : 
+    Boolean CanSeek 'get ' : 
+    Boolean CanWrite 'get ' : 
+    Int64 Length 'get ' : 
+    Int64 Position 'get set' : 
+  Methods:
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    get_ProvisionalAlternateEncoding(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProvisionalAlternateEncoding(Encoding): PrivateScope, Public, HideBySig, SpecialName
+    get_CodecBufferSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_CodecBufferSize(Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Password(String): PrivateScope, Public, HideBySig, SpecialName
+    Read(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    GetNextEntry(): PrivateScope, Public, HideBySig
+    get_CanRead(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanSeek(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanWrite(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Length(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Position(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Position(Int64): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Flush(): PrivateScope, Public, Virtual, HideBySig
+    Write(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    Seek(Int64, SeekOrigin): PrivateScope, Public, Virtual, HideBySig
+    SetLength(Int64): PrivateScope, Public, Virtual, HideBySig
+Class Ionic.Zip.ComHelper: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    IsZipFile(String): PrivateScope, Public, HideBySig
+    IsZipFileWithExtract(String): PrivateScope, Public, HideBySig
+    CheckZip(String): PrivateScope, Public, HideBySig
+    CheckZipPassword(String, String): PrivateScope, Public, HideBySig
+    FixZipDirectory(String): PrivateScope, Public, HideBySig
+    GetZipLibraryVersion(): PrivateScope, Public, HideBySig
+Struct Ionic.Zip.ZipErrorAction: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Ionic.Zip.ZipErrorAction Throw = 0 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipErrorAction Skip = 1 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipErrorAction Retry = 2 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipErrorAction InvokeErrorEvent = 3 : Public, Static, Literal, HasDefault
+Struct Ionic.Zip.EncryptionAlgorithm: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Ionic.Zip.EncryptionAlgorithm None = 0 : Public, Static, Literal, HasDefault
+    Ionic.Zip.EncryptionAlgorithm PkzipWeak = 1 : Public, Static, Literal, HasDefault
+    Ionic.Zip.EncryptionAlgorithm WinZipAes128 = 2 : Public, Static, Literal, HasDefault
+    Ionic.Zip.EncryptionAlgorithm WinZipAes256 = 3 : Public, Static, Literal, HasDefault
+    Ionic.Zip.EncryptionAlgorithm Unsupported = 4 : Public, Static, Literal, HasDefault
+Struct Ionic.Zip.ExtractExistingFileAction: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Ionic.Zip.ExtractExistingFileAction Throw = 0 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ExtractExistingFileAction OverwriteSilently = 1 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ExtractExistingFileAction DoNotOverwrite = 2 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ExtractExistingFileAction InvokeExtractProgressEvent = 3 : Public, Static, Literal, HasDefault
+Class Ionic.FileSelector: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String SelectionCriteria 'get set' : 
+    Boolean TraverseReparsePoints 'get set' : 
+  Methods:
+    get_SelectionCriteria(): PrivateScope, Public, HideBySig, SpecialName
+    set_SelectionCriteria(String): PrivateScope, Public, HideBySig, SpecialName
+    get_TraverseReparsePoints(): PrivateScope, Public, HideBySig, SpecialName
+    set_TraverseReparsePoints(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    SelectFiles(String): PrivateScope, Public, HideBySig
+    SelectFiles(String, Boolean): PrivateScope, Public, HideBySig
+    SelectEntries(ZipFile): PrivateScope, Public, HideBySig
+    SelectEntries(ZipFile, String): PrivateScope, Public, HideBySig
+Class Ionic.Zip.ZipException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :System.Exception
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Ionic.Zip.BadPasswordException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Ionic.Zip.ZipException
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Ionic.Zip.BadReadException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Ionic.Zip.ZipException
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Ionic.Zip.BadCrcException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Ionic.Zip.ZipException
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Ionic.Zip.SfxGenerationException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Ionic.Zip.ZipException
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Ionic.Zip.BadStateException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Ionic.Zip.ZipException
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Ionic.Zip.CountingStream: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.IO.Stream
+    Void .ctor(System.IO.Stream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.IO.Stream WrappedStream 'get ' : 
+    Int64 BytesWritten 'get ' : 
+    Int64 BytesRead 'get ' : 
+    Boolean CanRead 'get ' : 
+    Boolean CanSeek 'get ' : 
+    Boolean CanWrite 'get ' : 
+    Int64 Length 'get ' : 
+    Int64 ComputedPosition 'get ' : 
+    Int64 Position 'get set' : 
+  Methods:
+    get_WrappedStream(): PrivateScope, Public, HideBySig, SpecialName
+    get_BytesWritten(): PrivateScope, Public, HideBySig, SpecialName
+    get_BytesRead(): PrivateScope, Public, HideBySig, SpecialName
+    Adjust(Int64): PrivateScope, Public, HideBySig
+    Read(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    Write(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    get_CanRead(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanSeek(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanWrite(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Flush(): PrivateScope, Public, Virtual, HideBySig
+    get_Length(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_ComputedPosition(): PrivateScope, Public, HideBySig, SpecialName
+    get_Position(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Position(Int64): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Seek(Int64, SeekOrigin): PrivateScope, Public, Virtual, HideBySig
+    SetLength(Int64): PrivateScope, Public, Virtual, HideBySig
+Class Ionic.Zip.WriteDelegate: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(String, Stream): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(String, Stream, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Ionic.Zip.OpenDelegate: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(String, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Ionic.Zip.CloseDelegate: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(String, Stream): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(String, Stream, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Ionic.Zip.SetCompressionCallback: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(String, String, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Struct Ionic.Zip.ZipProgressEventType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Ionic.Zip.ZipProgressEventType Adding_Started = 0 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipProgressEventType Adding_AfterAddEntry = 1 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipProgressEventType Adding_Completed = 2 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipProgressEventType Reading_Started = 3 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipProgressEventType Reading_BeforeReadEntry = 4 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipProgressEventType Reading_AfterReadEntry = 5 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipProgressEventType Reading_Completed = 6 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipProgressEventType Reading_ArchiveBytesRead = 7 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipProgressEventType Saving_Started = 8 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipProgressEventType Saving_BeforeWriteEntry = 9 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipProgressEventType Saving_AfterWriteEntry = 10 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipProgressEventType Saving_Completed = 11 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipProgressEventType Saving_AfterSaveTempArchive = 12 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipProgressEventType Saving_BeforeRenameTempArchive = 13 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipProgressEventType Saving_AfterRenameTempArchive = 14 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipProgressEventType Saving_AfterCompileSelfExtractor = 15 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipProgressEventType Saving_EntryBytesRead = 16 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipProgressEventType Extracting_BeforeExtractEntry = 17 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipProgressEventType Extracting_AfterExtractEntry = 18 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipProgressEventType Extracting_ExtractEntryWouldOverwrite = 19 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipProgressEventType Extracting_EntryBytesWritten = 20 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipProgressEventType Extracting_BeforeExtractAll = 21 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipProgressEventType Extracting_AfterExtractAll = 22 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipProgressEventType Error_Saving = 23 : Public, Static, Literal, HasDefault
+Class Ionic.Zip.ZipProgressEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+  Properties:
+    Int32 EntriesTotal 'get set' : 
+    Ionic.Zip.ZipEntry CurrentEntry 'get set' : 
+    Boolean Cancel 'get set' : 
+    Ionic.Zip.ZipProgressEventType EventType 'get set' : 
+    System.String ArchiveName 'get set' : 
+    Int64 BytesTransferred 'get set' : 
+    Int64 TotalBytesToTransfer 'get set' : 
+  Methods:
+    get_EntriesTotal(): PrivateScope, Public, HideBySig, SpecialName
+    set_EntriesTotal(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_CurrentEntry(): PrivateScope, Public, HideBySig, SpecialName
+    set_CurrentEntry(ZipEntry): PrivateScope, Public, HideBySig, SpecialName
+    get_Cancel(): PrivateScope, Public, HideBySig, SpecialName
+    set_Cancel(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_EventType(): PrivateScope, Public, HideBySig, SpecialName
+    set_EventType(ZipProgressEventType): PrivateScope, Public, HideBySig, SpecialName
+    get_ArchiveName(): PrivateScope, Public, HideBySig, SpecialName
+    set_ArchiveName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_BytesTransferred(): PrivateScope, Public, HideBySig, SpecialName
+    set_BytesTransferred(Int64): PrivateScope, Public, HideBySig, SpecialName
+    get_TotalBytesToTransfer(): PrivateScope, Public, HideBySig, SpecialName
+    set_TotalBytesToTransfer(Int64): PrivateScope, Public, HideBySig, SpecialName
+Class Ionic.Zip.ReadProgressEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Ionic.Zip.ZipProgressEventArgs
+Class Ionic.Zip.AddProgressEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Ionic.Zip.ZipProgressEventArgs
+Class Ionic.Zip.SaveProgressEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Ionic.Zip.ZipProgressEventArgs
+  Properties:
+    Int32 EntriesSaved 'get ' : 
+  Methods:
+    get_EntriesSaved(): PrivateScope, Public, HideBySig, SpecialName
+Class Ionic.Zip.ExtractProgressEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Ionic.Zip.ZipProgressEventArgs
+  Properties:
+    Int32 EntriesExtracted 'get ' : 
+    System.String ExtractLocation 'get ' : 
+  Methods:
+    get_EntriesExtracted(): PrivateScope, Public, HideBySig, SpecialName
+    get_ExtractLocation(): PrivateScope, Public, HideBySig, SpecialName
+Class Ionic.Zip.ZipErrorEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Ionic.Zip.ZipProgressEventArgs
+  Properties:
+    System.Exception Exception 'get ' : 
+    System.String FileName 'get ' : 
+  Methods:
+    get_Exception(): PrivateScope, Public, HideBySig, SpecialName
+    get_FileName(): PrivateScope, Public, HideBySig, SpecialName
+Class Ionic.Zip.ZipEntry: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Info 'get ' : 
+    System.DateTime LastModified 'get set' : 
+    System.DateTime ModifiedTime 'get set' : 
+    System.DateTime AccessedTime 'get set' : 
+    System.DateTime CreationTime 'get set' : 
+    Boolean EmitTimesInWindowsFormatWhenSaving 'get set' : 
+    Boolean EmitTimesInUnixFormatWhenSaving 'get set' : 
+    Ionic.Zip.ZipEntryTimestamp Timestamp 'get ' : 
+    System.IO.FileAttributes Attributes 'get set' : 
+    System.String FileName 'get set' : 
+    System.IO.Stream InputStream 'get set' : 
+    Boolean InputStreamWasJitProvided 'get ' : 
+    Ionic.Zip.ZipEntrySource Source 'get ' : 
+    Int16 VersionNeeded 'get ' : 
+    System.String Comment 'get set' : 
+    System.Nullable`1[System.Boolean] RequiresZip64 'get ' : 
+    System.Nullable`1[System.Boolean] OutputUsedZip64 'get ' : 
+    Int16 BitField 'get ' : 
+    Ionic.Zip.CompressionMethod CompressionMethod 'get set' : 
+    Ionic.Zlib.CompressionLevel CompressionLevel 'get set' : 
+    Int64 CompressedSize 'get ' : 
+    Int64 UncompressedSize 'get ' : 
+    Double CompressionRatio 'get ' : 
+    Int32 Crc  'get ' : 
+    Boolean IsDirectory 'get ' : 
+    Boolean UsesEncryption 'get ' : 
+    Ionic.Zip.EncryptionAlgorithm Encryption 'get set' : 
+    System.String Password 'get set' : 
+    Ionic.Zip.ExtractExistingFileAction ExtractExistingFile 'get set' : 
+    Ionic.Zip.ZipErrorAction ZipErrorAction 'get set' : 
+    Boolean IncludedInMostRecentSave 'get ' : 
+    Ionic.Zip.SetCompressionCallback SetCompression 'get set' : 
+    Boolean UseUnicodeAsNecessary 'get set' :  (Obsolete)
+    System.Text.Encoding ProvisionalAlternateEncoding 'get set' :  (Obsolete)
+    System.Text.Encoding AlternateEncoding 'get set' : 
+    Ionic.Zip.ZipOption AlternateEncodingUsage 'get set' : 
+    Boolean IsText 'get set' : 
+  Methods:
+    Extract(Stream): PrivateScope, Public, HideBySig
+    Extract(String): PrivateScope, Public, HideBySig
+    Extract(String, ExtractExistingFileAction): PrivateScope, Public, HideBySig
+    ExtractWithPassword(String): PrivateScope, Public, HideBySig
+    ExtractWithPassword(String, String): PrivateScope, Public, HideBySig
+    ExtractWithPassword(ExtractExistingFileAction, String): PrivateScope, Public, HideBySig
+    ExtractWithPassword(String, ExtractExistingFileAction, String): PrivateScope, Public, HideBySig
+    ExtractWithPassword(Stream, String): PrivateScope, Public, HideBySig
+    OpenReader(): PrivateScope, Public, HideBySig
+    OpenReader(String): PrivateScope, Public, HideBySig
+    get_Info(): PrivateScope, Public, HideBySig, SpecialName
+    get_LastModified(): PrivateScope, Public, HideBySig, SpecialName
+    set_LastModified(DateTime): PrivateScope, Public, HideBySig, SpecialName
+    get_ModifiedTime(): PrivateScope, Public, HideBySig, SpecialName
+    set_ModifiedTime(DateTime): PrivateScope, Public, HideBySig, SpecialName
+    get_AccessedTime(): PrivateScope, Public, HideBySig, SpecialName
+    set_AccessedTime(DateTime): PrivateScope, Public, HideBySig, SpecialName
+    get_CreationTime(): PrivateScope, Public, HideBySig, SpecialName
+    set_CreationTime(DateTime): PrivateScope, Public, HideBySig, SpecialName
+    SetEntryTimes(DateTime, DateTime, DateTime): PrivateScope, Public, HideBySig
+    get_EmitTimesInWindowsFormatWhenSaving(): PrivateScope, Public, HideBySig, SpecialName
+    set_EmitTimesInWindowsFormatWhenSaving(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_EmitTimesInUnixFormatWhenSaving(): PrivateScope, Public, HideBySig, SpecialName
+    set_EmitTimesInUnixFormatWhenSaving(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Timestamp(): PrivateScope, Public, HideBySig, SpecialName
+    get_Attributes(): PrivateScope, Public, HideBySig, SpecialName
+    set_Attributes(FileAttributes): PrivateScope, Public, HideBySig, SpecialName
+    get_FileName(): PrivateScope, Public, HideBySig, SpecialName
+    set_FileName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_InputStream(): PrivateScope, Public, HideBySig, SpecialName
+    set_InputStream(Stream): PrivateScope, Public, HideBySig, SpecialName
+    get_InputStreamWasJitProvided(): PrivateScope, Public, HideBySig, SpecialName
+    get_Source(): PrivateScope, Public, HideBySig, SpecialName
+    get_VersionNeeded(): PrivateScope, Public, HideBySig, SpecialName
+    get_Comment(): PrivateScope, Public, HideBySig, SpecialName
+    set_Comment(String): PrivateScope, Public, HideBySig, SpecialName
+    get_RequiresZip64(): PrivateScope, Public, HideBySig, SpecialName
+    get_OutputUsedZip64(): PrivateScope, Public, HideBySig, SpecialName
+    get_BitField(): PrivateScope, Public, HideBySig, SpecialName
+    get_CompressionMethod(): PrivateScope, Public, HideBySig, SpecialName
+    set_CompressionMethod(CompressionMethod): PrivateScope, Public, HideBySig, SpecialName
+    get_CompressionLevel(): PrivateScope, Public, HideBySig, SpecialName
+    set_CompressionLevel(CompressionLevel): PrivateScope, Public, HideBySig, SpecialName
+    get_CompressedSize(): PrivateScope, Public, HideBySig, SpecialName
+    get_UncompressedSize(): PrivateScope, Public, HideBySig, SpecialName
+    get_CompressionRatio(): PrivateScope, Public, HideBySig, SpecialName
+    get_Crc(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsDirectory(): PrivateScope, Public, HideBySig, SpecialName
+    get_UsesEncryption(): PrivateScope, Public, HideBySig, SpecialName
+    get_Encryption(): PrivateScope, Public, HideBySig, SpecialName
+    set_Encryption(EncryptionAlgorithm): PrivateScope, Public, HideBySig, SpecialName
+    set_Password(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ExtractExistingFile(): PrivateScope, Public, HideBySig, SpecialName
+    set_ExtractExistingFile(ExtractExistingFileAction): PrivateScope, Public, HideBySig, SpecialName
+    get_ZipErrorAction(): PrivateScope, Public, HideBySig, SpecialName
+    set_ZipErrorAction(ZipErrorAction): PrivateScope, Public, HideBySig, SpecialName
+    get_IncludedInMostRecentSave(): PrivateScope, Public, HideBySig, SpecialName
+    get_SetCompression(): PrivateScope, Public, HideBySig, SpecialName
+    set_SetCompression(SetCompressionCallback): PrivateScope, Public, HideBySig, SpecialName
+    get_UseUnicodeAsNecessary(): PrivateScope, Public, HideBySig, SpecialName
+    set_UseUnicodeAsNecessary(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ProvisionalAlternateEncoding(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProvisionalAlternateEncoding(Encoding): PrivateScope, Public, HideBySig, SpecialName
+    get_AlternateEncoding(): PrivateScope, Public, HideBySig, SpecialName
+    set_AlternateEncoding(Encoding): PrivateScope, Public, HideBySig, SpecialName
+    get_AlternateEncodingUsage(): PrivateScope, Public, HideBySig, SpecialName
+    set_AlternateEncodingUsage(ZipOption): PrivateScope, Public, HideBySig, SpecialName
+    get_IsText(): PrivateScope, Public, HideBySig, SpecialName
+    set_IsText(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Extract(): PrivateScope, Public, HideBySig
+    Extract(ExtractExistingFileAction): PrivateScope, Public, HideBySig
+Struct Ionic.Zip.ZipEntryTimestamp: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Ionic.Zip.ZipEntryTimestamp None = 0 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipEntryTimestamp DOS = 1 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipEntryTimestamp Windows = 2 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipEntryTimestamp Unix = 4 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipEntryTimestamp InfoZip1 = 8 : Public, Static, Literal, HasDefault
+Struct Ionic.Zip.CompressionMethod: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Ionic.Zip.CompressionMethod None = 0 : Public, Static, Literal, HasDefault
+    Ionic.Zip.CompressionMethod Deflate = 8 : Public, Static, Literal, HasDefault
+    Ionic.Zip.CompressionMethod BZip2 = 12 : Public, Static, Literal, HasDefault
+Class Ionic.Zip.ZipFile: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Text.Encoding): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Text.Encoding): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.IO.TextWriter): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.IO.TextWriter, System.Text.Encoding): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Collections.Generic.IEnumerable`1[Ionic.Zip.ZipEntry]
+    System.Collections.IEnumerable
+    System.IDisposable
+  Fields:
+    Int32 BufferSizeDefault : Public, Static, InitOnly
+  Properties:
+    System.String Info 'get ' : 
+    Boolean FullScan 'get set' : 
+    Boolean SortEntriesBeforeSaving 'get set' : 
+    Boolean AddDirectoryWillTraverseReparsePoints 'get set' : 
+    Int32 BufferSize 'get set' : 
+    Int32 CodecBufferSize 'get set' : 
+    Boolean FlattenFoldersOnExtract 'get set' : 
+    Ionic.Zlib.CompressionStrategy Strategy 'get set' : 
+    System.String Name 'get set' : 
+    Ionic.Zlib.CompressionLevel CompressionLevel 'get set' : 
+    Ionic.Zip.CompressionMethod CompressionMethod 'get set' : 
+    System.String Comment 'get set' : 
+    Boolean EmitTimesInWindowsFormatWhenSaving 'get set' : 
+    Boolean EmitTimesInUnixFormatWhenSaving 'get set' : 
+    Boolean CaseSensitiveRetrieval 'get set' : 
+    Boolean UseUnicodeAsNecessary 'get set' :  (Obsolete)
+    Ionic.Zip.Zip64Option UseZip64WhenSaving 'get set' : 
+    System.Nullable`1[System.Boolean] RequiresZip64 'get ' : 
+    System.Nullable`1[System.Boolean] OutputUsedZip64 'get ' : 
+    System.Nullable`1[System.Boolean] InputUsesZip64 'get ' : 
+    System.Text.Encoding ProvisionalAlternateEncoding 'get set' :  (Obsolete)
+    System.Text.Encoding AlternateEncoding 'get set' : 
+    Ionic.Zip.ZipOption AlternateEncodingUsage 'get set' : 
+    System.Text.Encoding DefaultEncoding 'get ' : 
+    System.IO.TextWriter StatusMessageTextWriter 'get set' : 
+    System.String TempFileFolder 'get set' : 
+    System.String Password 'get set' : 
+    Ionic.Zip.ExtractExistingFileAction ExtractExistingFile 'get set' : 
+    Ionic.Zip.ZipErrorAction ZipErrorAction 'get set' : 
+    Ionic.Zip.EncryptionAlgorithm Encryption 'get set' : 
+    Ionic.Zip.SetCompressionCallback SetCompression 'get set' : 
+    Int32 MaxOutputSegmentSize 'get set' : 
+    Int32 NumberOfSegmentsForMostRecentSave 'get ' : 
+    Int64 ParallelDeflateThreshold 'get set' : 
+    Int32 ParallelDeflateMaxBufferPairs 'get set' : 
+    System.Version LibraryVersion 'get ' : 
+    Ionic.Zip.ZipEntry Item [Int32] 'get ' : 
+    Ionic.Zip.ZipEntry Item [System.String] 'get ' : 
+    System.Collections.Generic.ICollection`1[System.String] EntryFileNames 'get ' : 
+    System.Collections.Generic.ICollection`1[Ionic.Zip.ZipEntry] Entries 'get ' : 
+    System.Collections.Generic.ICollection`1[Ionic.Zip.ZipEntry] EntriesSorted 'get ' : 
+    Int32 Count 'get ' : 
+  Events:
+    System.EventHandler`1[Ionic.Zip.SaveProgressEventArgs] SaveProgress: 
+    System.EventHandler`1[Ionic.Zip.ReadProgressEventArgs] ReadProgress: 
+    System.EventHandler`1[Ionic.Zip.ExtractProgressEventArgs] ExtractProgress: 
+    System.EventHandler`1[Ionic.Zip.AddProgressEventArgs] AddProgress: 
+    System.EventHandler`1[Ionic.Zip.ZipErrorEventArgs] ZipError: 
+  Methods:
+    Read(Stream): PrivateScope, Public, Static, HideBySig
+    Read(Stream, ReadOptions): PrivateScope, Public, Static, HideBySig
+    IsZipFile(String): PrivateScope, Public, Static, HideBySig
+    IsZipFile(String, Boolean): PrivateScope, Public, Static, HideBySig
+    IsZipFile(Stream, Boolean): PrivateScope, Public, Static, HideBySig
+    Save(): PrivateScope, Public, HideBySig
+    Save(String): PrivateScope, Public, HideBySig
+    Save(Stream): PrivateScope, Public, HideBySig
+    AddSelectedFiles(String): PrivateScope, Public, HideBySig
+    AddSelectedFiles(String, Boolean): PrivateScope, Public, HideBySig
+    AddSelectedFiles(String, String): PrivateScope, Public, HideBySig
+    AddSelectedFiles(String, String, Boolean): PrivateScope, Public, HideBySig
+    AddSelectedFiles(String, String, String): PrivateScope, Public, HideBySig
+    AddSelectedFiles(String, String, String, Boolean): PrivateScope, Public, HideBySig
+    UpdateSelectedFiles(String, String, String, Boolean): PrivateScope, Public, HideBySig
+    SelectEntries(String): PrivateScope, Public, HideBySig
+    SelectEntries(String, String): PrivateScope, Public, HideBySig
+    RemoveSelectedEntries(String): PrivateScope, Public, HideBySig
+    RemoveSelectedEntries(String, String): PrivateScope, Public, HideBySig
+    ExtractSelectedEntries(String): PrivateScope, Public, HideBySig
+    ExtractSelectedEntries(String, ExtractExistingFileAction): PrivateScope, Public, HideBySig
+    ExtractSelectedEntries(String, String): PrivateScope, Public, HideBySig
+    ExtractSelectedEntries(String, String, String): PrivateScope, Public, HideBySig
+    ExtractSelectedEntries(String, String, String, ExtractExistingFileAction): PrivateScope, Public, HideBySig
+    SaveSelfExtractor(String, SelfExtractorFlavor): PrivateScope, Public, HideBySig
+    SaveSelfExtractor(String, SelfExtractorSaveOptions): PrivateScope, Public, HideBySig
+    GetEnumerator(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetNewEnum(): PrivateScope, Public, HideBySig
+    get_DefaultEncoding(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_StatusMessageTextWriter(): PrivateScope, Public, HideBySig, SpecialName
+    set_StatusMessageTextWriter(TextWriter): PrivateScope, Public, HideBySig, SpecialName
+    get_TempFileFolder(): PrivateScope, Public, HideBySig, SpecialName
+    set_TempFileFolder(String): PrivateScope, Public, HideBySig, SpecialName
+    set_Password(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ExtractExistingFile(): PrivateScope, Public, HideBySig, SpecialName
+    set_ExtractExistingFile(ExtractExistingFileAction): PrivateScope, Public, HideBySig, SpecialName
+    get_ZipErrorAction(): PrivateScope, Public, HideBySig, SpecialName
+    set_ZipErrorAction(ZipErrorAction): PrivateScope, Public, HideBySig, SpecialName
+    get_Encryption(): PrivateScope, Public, HideBySig, SpecialName
+    set_Encryption(EncryptionAlgorithm): PrivateScope, Public, HideBySig, SpecialName
+    get_SetCompression(): PrivateScope, Public, HideBySig, SpecialName
+    set_SetCompression(SetCompressionCallback): PrivateScope, Public, HideBySig, SpecialName
+    get_MaxOutputSegmentSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_MaxOutputSegmentSize(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_NumberOfSegmentsForMostRecentSave(): PrivateScope, Public, HideBySig, SpecialName
+    set_ParallelDeflateThreshold(Int64): PrivateScope, Public, HideBySig, SpecialName
+    get_ParallelDeflateThreshold(): PrivateScope, Public, HideBySig, SpecialName
+    get_ParallelDeflateMaxBufferPairs(): PrivateScope, Public, HideBySig, SpecialName
+    set_ParallelDeflateMaxBufferPairs(Int32): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    get_LibraryVersion(): PrivateScope, Public, Static, HideBySig, SpecialName
+    Initialize(String): PrivateScope, Public, HideBySig
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(String): PrivateScope, Public, HideBySig, SpecialName
+    get_EntryFileNames(): PrivateScope, Public, HideBySig, SpecialName
+    get_Entries(): PrivateScope, Public, HideBySig, SpecialName
+    get_EntriesSorted(): PrivateScope, Public, HideBySig, SpecialName
+    get_Count(): PrivateScope, Public, HideBySig, SpecialName
+    RemoveEntry(ZipEntry): PrivateScope, Public, HideBySig
+    RemoveEntry(String): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    add_SaveProgress(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_SaveProgress(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_ReadProgress(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_ReadProgress(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_ExtractProgress(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_ExtractProgress(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_AddProgress(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_AddProgress(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_ZipError(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_ZipError(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    ExtractAll(String): PrivateScope, Public, HideBySig
+    ExtractAll(String, ExtractExistingFileAction): PrivateScope, Public, HideBySig
+    Read(String): PrivateScope, Public, Static, HideBySig
+    Read(String, ReadOptions): PrivateScope, Public, Static, HideBySig
+    AddItem(String): PrivateScope, Public, HideBySig
+    AddItem(String, String): PrivateScope, Public, HideBySig
+    AddFile(String): PrivateScope, Public, HideBySig
+    AddFile(String, String): PrivateScope, Public, HideBySig
+    RemoveEntries(ICollection`1): PrivateScope, Public, HideBySig
+    RemoveEntries(ICollection`1): PrivateScope, Public, HideBySig
+    AddFiles(IEnumerable`1): PrivateScope, Public, HideBySig
+    UpdateFiles(IEnumerable`1): PrivateScope, Public, HideBySig
+    AddFiles(IEnumerable`1, String): PrivateScope, Public, HideBySig
+    AddFiles(IEnumerable`1, Boolean, String): PrivateScope, Public, HideBySig
+    UpdateFiles(IEnumerable`1, String): PrivateScope, Public, HideBySig
+    UpdateFile(String): PrivateScope, Public, HideBySig
+    UpdateFile(String, String): PrivateScope, Public, HideBySig
+    UpdateDirectory(String): PrivateScope, Public, HideBySig
+    UpdateDirectory(String, String): PrivateScope, Public, HideBySig
+    UpdateItem(String): PrivateScope, Public, HideBySig
+    UpdateItem(String, String): PrivateScope, Public, HideBySig
+    AddEntry(String, String): PrivateScope, Public, HideBySig
+    AddEntry(String, String, Encoding): PrivateScope, Public, HideBySig
+    AddEntry(String, Stream): PrivateScope, Public, HideBySig
+    AddEntry(String, WriteDelegate): PrivateScope, Public, HideBySig
+    AddEntry(String, OpenDelegate, CloseDelegate): PrivateScope, Public, HideBySig
+    UpdateEntry(String, String): PrivateScope, Public, HideBySig
+    UpdateEntry(String, String, Encoding): PrivateScope, Public, HideBySig
+    UpdateEntry(String, WriteDelegate): PrivateScope, Public, HideBySig
+    UpdateEntry(String, OpenDelegate, CloseDelegate): PrivateScope, Public, HideBySig
+    UpdateEntry(String, Stream): PrivateScope, Public, HideBySig
+    AddEntry(String, Byte[]): PrivateScope, Public, HideBySig
+    UpdateEntry(String, Byte[]): PrivateScope, Public, HideBySig
+    AddDirectory(String): PrivateScope, Public, HideBySig
+    AddDirectory(String, String): PrivateScope, Public, HideBySig
+    AddDirectoryByName(String): PrivateScope, Public, HideBySig
+    CheckZip(String): PrivateScope, Public, Static, HideBySig
+    CheckZip(String, Boolean, TextWriter): PrivateScope, Public, Static, HideBySig
+    FixZipDirectory(String): PrivateScope, Public, Static, HideBySig
+    CheckZipPassword(String, String): PrivateScope, Public, Static, HideBySig
+    get_Info(): PrivateScope, Public, HideBySig, SpecialName
+    get_FullScan(): PrivateScope, Public, HideBySig, SpecialName
+    set_FullScan(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_SortEntriesBeforeSaving(): PrivateScope, Public, HideBySig, SpecialName
+    set_SortEntriesBeforeSaving(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_AddDirectoryWillTraverseReparsePoints(): PrivateScope, Public, HideBySig, SpecialName
+    set_AddDirectoryWillTraverseReparsePoints(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_BufferSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_BufferSize(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_CodecBufferSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_CodecBufferSize(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_FlattenFoldersOnExtract(): PrivateScope, Public, HideBySig, SpecialName
+    set_FlattenFoldersOnExtract(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Strategy(): PrivateScope, Public, HideBySig, SpecialName
+    set_Strategy(CompressionStrategy): PrivateScope, Public, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    set_Name(String): PrivateScope, Public, HideBySig, SpecialName
+    get_CompressionLevel(): PrivateScope, Public, HideBySig, SpecialName
+    set_CompressionLevel(CompressionLevel): PrivateScope, Public, HideBySig, SpecialName
+    get_CompressionMethod(): PrivateScope, Public, HideBySig, SpecialName
+    set_CompressionMethod(CompressionMethod): PrivateScope, Public, HideBySig, SpecialName
+    get_Comment(): PrivateScope, Public, HideBySig, SpecialName
+    set_Comment(String): PrivateScope, Public, HideBySig, SpecialName
+    get_EmitTimesInWindowsFormatWhenSaving(): PrivateScope, Public, HideBySig, SpecialName
+    set_EmitTimesInWindowsFormatWhenSaving(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_EmitTimesInUnixFormatWhenSaving(): PrivateScope, Public, HideBySig, SpecialName
+    set_EmitTimesInUnixFormatWhenSaving(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    ContainsEntry(String): PrivateScope, Public, HideBySig
+    get_CaseSensitiveRetrieval(): PrivateScope, Public, HideBySig, SpecialName
+    set_CaseSensitiveRetrieval(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_UseUnicodeAsNecessary(): PrivateScope, Public, HideBySig, SpecialName
+    set_UseUnicodeAsNecessary(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_UseZip64WhenSaving(): PrivateScope, Public, HideBySig, SpecialName
+    set_UseZip64WhenSaving(Zip64Option): PrivateScope, Public, HideBySig, SpecialName
+    get_RequiresZip64(): PrivateScope, Public, HideBySig, SpecialName
+    get_OutputUsedZip64(): PrivateScope, Public, HideBySig, SpecialName
+    get_InputUsesZip64(): PrivateScope, Public, HideBySig, SpecialName
+    get_ProvisionalAlternateEncoding(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProvisionalAlternateEncoding(Encoding): PrivateScope, Public, HideBySig, SpecialName
+    get_AlternateEncoding(): PrivateScope, Public, HideBySig, SpecialName
+    set_AlternateEncoding(Encoding): PrivateScope, Public, HideBySig, SpecialName
+    get_AlternateEncodingUsage(): PrivateScope, Public, HideBySig, SpecialName
+    set_AlternateEncodingUsage(ZipOption): PrivateScope, Public, HideBySig, SpecialName
+Struct Ionic.Zip.Zip64Option: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Ionic.Zip.Zip64Option Default = 0 : Public, Static, Literal, HasDefault
+    Ionic.Zip.Zip64Option Never = 0 : Public, Static, Literal, HasDefault
+    Ionic.Zip.Zip64Option AsNecessary = 1 : Public, Static, Literal, HasDefault
+    Ionic.Zip.Zip64Option Always = 2 : Public, Static, Literal, HasDefault
+Struct Ionic.Zip.ZipOption: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Ionic.Zip.ZipOption Default = 0 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipOption Never = 0 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipOption AsNecessary = 1 : Public, Static, Literal, HasDefault
+    Ionic.Zip.ZipOption Always = 2 : Public, Static, Literal, HasDefault
+Class Ionic.Zip.ReadOptions: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.EventHandler`1[Ionic.Zip.ReadProgressEventArgs] ReadProgress 'get set' : 
+    System.IO.TextWriter StatusMessageWriter 'get set' : 
+    System.Text.Encoding Encoding 'get set' : 
+  Methods:
+    get_ReadProgress(): PrivateScope, Public, HideBySig, SpecialName
+    set_ReadProgress(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    get_StatusMessageWriter(): PrivateScope, Public, HideBySig, SpecialName
+    set_StatusMessageWriter(TextWriter): PrivateScope, Public, HideBySig, SpecialName
+    get_Encoding(): PrivateScope, Public, HideBySig, SpecialName
+    set_Encoding(Encoding): PrivateScope, Public, HideBySig, SpecialName
+Struct Ionic.Zip.SelfExtractorFlavor: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Ionic.Zip.SelfExtractorFlavor ConsoleApplication = 0 : Public, Static, Literal, HasDefault
+    Ionic.Zip.SelfExtractorFlavor WinFormsApplication = 1 : Public, Static, Literal, HasDefault
+Class Ionic.Zip.SelfExtractorSaveOptions: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Ionic.Zip.SelfExtractorFlavor Flavor 'get set' : 
+    System.String PostExtractCommandLine 'get set' : 
+    System.String DefaultExtractDirectory 'get set' : 
+    System.String IconFile 'get set' : 
+    Boolean Quiet 'get set' : 
+    Ionic.Zip.ExtractExistingFileAction ExtractExistingFile 'get set' : 
+    Boolean RemoveUnpackedFilesAfterExecute 'get set' : 
+    System.Version FileVersion 'get set' : 
+    System.String ProductVersion 'get set' : 
+    System.String Copyright 'get set' : 
+    System.String Description 'get set' : 
+    System.String ProductName 'get set' : 
+    System.String SfxExeWindowTitle 'get set' : 
+    System.String AdditionalCompilerSwitches 'get set' : 
+  Methods:
+    get_Flavor(): PrivateScope, Public, HideBySig, SpecialName
+    set_Flavor(SelfExtractorFlavor): PrivateScope, Public, HideBySig, SpecialName
+    get_PostExtractCommandLine(): PrivateScope, Public, HideBySig, SpecialName
+    set_PostExtractCommandLine(String): PrivateScope, Public, HideBySig, SpecialName
+    get_DefaultExtractDirectory(): PrivateScope, Public, HideBySig, SpecialName
+    set_DefaultExtractDirectory(String): PrivateScope, Public, HideBySig, SpecialName
+    get_IconFile(): PrivateScope, Public, HideBySig, SpecialName
+    set_IconFile(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Quiet(): PrivateScope, Public, HideBySig, SpecialName
+    set_Quiet(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ExtractExistingFile(): PrivateScope, Public, HideBySig, SpecialName
+    set_ExtractExistingFile(ExtractExistingFileAction): PrivateScope, Public, HideBySig, SpecialName
+    get_RemoveUnpackedFilesAfterExecute(): PrivateScope, Public, HideBySig, SpecialName
+    set_RemoveUnpackedFilesAfterExecute(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_FileVersion(): PrivateScope, Public, HideBySig, SpecialName
+    set_FileVersion(Version): PrivateScope, Public, HideBySig, SpecialName
+    get_ProductVersion(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProductVersion(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Copyright(): PrivateScope, Public, HideBySig, SpecialName
+    set_Copyright(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Description(): PrivateScope, Public, HideBySig, SpecialName
+    set_Description(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ProductName(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProductName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SfxExeWindowTitle(): PrivateScope, Public, HideBySig, SpecialName
+    set_SfxExeWindowTitle(String): PrivateScope, Public, HideBySig, SpecialName
+    get_AdditionalCompilerSwitches(): PrivateScope, Public, HideBySig, SpecialName
+    set_AdditionalCompilerSwitches(String): PrivateScope, Public, HideBySig, SpecialName
+Class Ionic.BZip2.BZip2InputStream: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.IO.Stream
+    Void .ctor(System.IO.Stream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean CanRead 'get ' : 
+    Boolean CanSeek 'get ' : 
+    Boolean CanWrite 'get ' : 
+    Int64 Length 'get ' : 
+    Int64 Position 'get set' : 
+  Methods:
+    Read(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    ReadByte(): PrivateScope, Public, Virtual, HideBySig
+    get_CanRead(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanSeek(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanWrite(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Flush(): PrivateScope, Public, Virtual, HideBySig
+    get_Length(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Position(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Position(Int64): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Seek(Int64, SeekOrigin): PrivateScope, Public, Virtual, HideBySig
+    SetLength(Int64): PrivateScope, Public, Virtual, HideBySig
+    Write(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    Close(): PrivateScope, Public, Virtual, HideBySig
+Class Ionic.BZip2.BZip2OutputStream: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.IO.Stream
+    Void .ctor(System.IO.Stream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Int32, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 BlockSize 'get ' : 
+    Boolean CanRead 'get ' : 
+    Boolean CanSeek 'get ' : 
+    Boolean CanWrite 'get ' : 
+    Int64 Length 'get ' : 
+    Int64 Position 'get set' : 
+  Methods:
+    Close(): PrivateScope, Public, Virtual, HideBySig
+    Flush(): PrivateScope, Public, Virtual, HideBySig
+    get_BlockSize(): PrivateScope, Public, HideBySig, SpecialName
+    Write(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    get_CanRead(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanSeek(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanWrite(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Length(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Position(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Position(Int64): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Seek(Int64, SeekOrigin): PrivateScope, Public, Virtual, HideBySig
+    SetLength(Int64): PrivateScope, Public, Virtual, HideBySig
+    Read(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+Class Ionic.BZip2.ParallelBZip2OutputStream: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.IO.Stream
+    Void .ctor(System.IO.Stream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Int32, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 MaxWorkers 'get set' : 
+    Int32 BlockSize 'get ' : 
+    Boolean CanRead 'get ' : 
+    Boolean CanSeek 'get ' : 
+    Boolean CanWrite 'get ' : 
+    Int64 Length 'get ' : 
+    Int64 Position 'get set' : 
+    Int64 BytesWrittenOut 'get ' : 
+  Methods:
+    get_MaxWorkers(): PrivateScope, Public, HideBySig, SpecialName
+    set_MaxWorkers(Int32): PrivateScope, Public, HideBySig, SpecialName
+    Close(): PrivateScope, Public, Virtual, HideBySig
+    Flush(): PrivateScope, Public, Virtual, HideBySig
+    get_BlockSize(): PrivateScope, Public, HideBySig, SpecialName
+    Write(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    get_CanRead(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanSeek(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanWrite(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Length(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Position(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Position(Int64): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_BytesWrittenOut(): PrivateScope, Public, HideBySig, SpecialName
+    Seek(Int64, SeekOrigin): PrivateScope, Public, Virtual, HideBySig
+    SetLength(Int64): PrivateScope, Public, Virtual, HideBySig
+    Read(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+Class Ionic.Zlib.DeflateStream: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.IO.Stream
+    Void .ctor(System.IO.Stream, Ionic.Zlib.CompressionMode): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Ionic.Zlib.CompressionMode, Ionic.Zlib.CompressionLevel): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Ionic.Zlib.CompressionMode, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Ionic.Zlib.CompressionMode, Ionic.Zlib.CompressionLevel, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Ionic.Zlib.FlushType FlushMode 'get set' : 
+    Int32 BufferSize 'get set' : 
+    Ionic.Zlib.CompressionStrategy Strategy 'get set' : 
+    Int64 TotalIn 'get ' : 
+    Int64 TotalOut 'get ' : 
+    Boolean CanRead 'get ' : 
+    Boolean CanSeek 'get ' : 
+    Boolean CanWrite 'get ' : 
+    Int64 Length 'get ' : 
+    Int64 Position 'get set' : 
+  Methods:
+    get_FlushMode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_FlushMode(FlushType): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_BufferSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_BufferSize(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Strategy(): PrivateScope, Public, HideBySig, SpecialName
+    set_Strategy(CompressionStrategy): PrivateScope, Public, HideBySig, SpecialName
+    get_TotalIn(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TotalOut(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CanRead(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanSeek(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanWrite(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Flush(): PrivateScope, Public, Virtual, HideBySig
+    get_Length(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Position(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Position(Int64): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Read(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    Seek(Int64, SeekOrigin): PrivateScope, Public, Virtual, HideBySig
+    SetLength(Int64): PrivateScope, Public, Virtual, HideBySig
+    Write(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    CompressString(String): PrivateScope, Public, Static, HideBySig
+    CompressBuffer(Byte[]): PrivateScope, Public, Static, HideBySig
+    UncompressString(Byte[]): PrivateScope, Public, Static, HideBySig
+    UncompressBuffer(Byte[]): PrivateScope, Public, Static, HideBySig
+Class Ionic.Zlib.GZipStream: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.IO.Stream
+    Void .ctor(System.IO.Stream, Ionic.Zlib.CompressionMode): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Ionic.Zlib.CompressionMode, Ionic.Zlib.CompressionLevel): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Ionic.Zlib.CompressionMode, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Ionic.Zlib.CompressionMode, Ionic.Zlib.CompressionLevel, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Nullable`1[System.DateTime] LastModified : Public
+  Properties:
+    System.String Comment 'get set' : 
+    System.String FileName 'get set' : 
+    Int32 Crc32 'get ' : 
+    Ionic.Zlib.FlushType FlushMode 'get set' : 
+    Int32 BufferSize 'get set' : 
+    Int64 TotalIn 'get ' : 
+    Int64 TotalOut 'get ' : 
+    Boolean CanRead 'get ' : 
+    Boolean CanSeek 'get ' : 
+    Boolean CanWrite 'get ' : 
+    Int64 Length 'get ' : 
+    Int64 Position 'get set' : 
+  Methods:
+    get_Comment(): PrivateScope, Public, HideBySig, SpecialName
+    set_Comment(String): PrivateScope, Public, HideBySig, SpecialName
+    get_FileName(): PrivateScope, Public, HideBySig, SpecialName
+    set_FileName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Crc32(): PrivateScope, Public, HideBySig, SpecialName
+    get_FlushMode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_FlushMode(FlushType): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_BufferSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_BufferSize(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_TotalIn(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TotalOut(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CanRead(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanSeek(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanWrite(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Flush(): PrivateScope, Public, Virtual, HideBySig
+    get_Length(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Position(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Position(Int64): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Read(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    Seek(Int64, SeekOrigin): PrivateScope, Public, Virtual, HideBySig
+    SetLength(Int64): PrivateScope, Public, Virtual, HideBySig
+    Write(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    CompressString(String): PrivateScope, Public, Static, HideBySig
+    CompressBuffer(Byte[]): PrivateScope, Public, Static, HideBySig
+    UncompressString(Byte[]): PrivateScope, Public, Static, HideBySig
+    UncompressBuffer(Byte[]): PrivateScope, Public, Static, HideBySig
+Class Ionic.Zlib.ParallelDeflateOutputStream: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.IO.Stream
+    Void .ctor(System.IO.Stream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Ionic.Zlib.CompressionLevel): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Ionic.Zlib.CompressionLevel, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Ionic.Zlib.CompressionLevel, Ionic.Zlib.CompressionStrategy, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Ionic.Zlib.CompressionStrategy Strategy 'get set' : 
+    Int32 MaxBufferPairs 'get set' : 
+    Int32 BufferSize 'get set' : 
+    Int32 Crc32 'get ' : 
+    Int64 BytesProcessed 'get ' : 
+    Boolean CanSeek 'get ' : 
+    Boolean CanRead 'get ' : 
+    Boolean CanWrite 'get ' : 
+    Int64 Length 'get ' : 
+    Int64 Position 'get set' : 
+  Methods:
+    get_Strategy(): PrivateScope, Public, HideBySig, SpecialName
+    get_MaxBufferPairs(): PrivateScope, Public, HideBySig, SpecialName
+    set_MaxBufferPairs(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_BufferSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_BufferSize(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Crc32(): PrivateScope, Public, HideBySig, SpecialName
+    get_BytesProcessed(): PrivateScope, Public, HideBySig, SpecialName
+    Write(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    Flush(): PrivateScope, Public, Virtual, HideBySig
+    Close(): PrivateScope, Public, Virtual, HideBySig
+    Dispose(): PrivateScope, Public, HideBySig
+    Reset(Stream): PrivateScope, Public, HideBySig
+    get_CanSeek(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanRead(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanWrite(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Length(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Position(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Position(Int64): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Read(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    Seek(Int64, SeekOrigin): PrivateScope, Public, Virtual, HideBySig
+    SetLength(Int64): PrivateScope, Public, Virtual, HideBySig
+Struct Ionic.Zlib.FlushType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Ionic.Zlib.FlushType None = 0 : Public, Static, Literal, HasDefault
+    Ionic.Zlib.FlushType Partial = 1 : Public, Static, Literal, HasDefault
+    Ionic.Zlib.FlushType Sync = 2 : Public, Static, Literal, HasDefault
+    Ionic.Zlib.FlushType Full = 3 : Public, Static, Literal, HasDefault
+    Ionic.Zlib.FlushType Finish = 4 : Public, Static, Literal, HasDefault
+Struct Ionic.Zlib.CompressionLevel: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Ionic.Zlib.CompressionLevel None = 0 : Public, Static, Literal, HasDefault
+    Ionic.Zlib.CompressionLevel Level0 = 0 : Public, Static, Literal, HasDefault
+    Ionic.Zlib.CompressionLevel BestSpeed = 1 : Public, Static, Literal, HasDefault
+    Ionic.Zlib.CompressionLevel Level1 = 1 : Public, Static, Literal, HasDefault
+    Ionic.Zlib.CompressionLevel Level2 = 2 : Public, Static, Literal, HasDefault
+    Ionic.Zlib.CompressionLevel Level3 = 3 : Public, Static, Literal, HasDefault
+    Ionic.Zlib.CompressionLevel Level4 = 4 : Public, Static, Literal, HasDefault
+    Ionic.Zlib.CompressionLevel Level5 = 5 : Public, Static, Literal, HasDefault
+    Ionic.Zlib.CompressionLevel Default = 6 : Public, Static, Literal, HasDefault
+    Ionic.Zlib.CompressionLevel Level6 = 6 : Public, Static, Literal, HasDefault
+    Ionic.Zlib.CompressionLevel Level7 = 7 : Public, Static, Literal, HasDefault
+    Ionic.Zlib.CompressionLevel Level8 = 8 : Public, Static, Literal, HasDefault
+    Ionic.Zlib.CompressionLevel BestCompression = 9 : Public, Static, Literal, HasDefault
+    Ionic.Zlib.CompressionLevel Level9 = 9 : Public, Static, Literal, HasDefault
+Struct Ionic.Zlib.CompressionStrategy: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Ionic.Zlib.CompressionStrategy Default = 0 : Public, Static, Literal, HasDefault
+    Ionic.Zlib.CompressionStrategy Filtered = 1 : Public, Static, Literal, HasDefault
+    Ionic.Zlib.CompressionStrategy HuffmanOnly = 2 : Public, Static, Literal, HasDefault
+Struct Ionic.Zlib.CompressionMode: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Ionic.Zlib.CompressionMode Compress = 0 : Public, Static, Literal, HasDefault
+    Ionic.Zlib.CompressionMode Decompress = 1 : Public, Static, Literal, HasDefault
+Class Ionic.Zlib.ZlibException: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Exception
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Ionic.Zlib.Adler: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Adler32(UInt32, Byte[], Int32, Int32): PrivateScope, Public, Static, HideBySig
+Class Ionic.Zlib.ZlibCodec: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Ionic.Zlib.CompressionMode): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Byte[] InputBuffer : Public
+    Int32 NextIn : Public
+    Int32 AvailableBytesIn : Public
+    Int64 TotalBytesIn : Public
+    Byte[] OutputBuffer : Public
+    Int32 NextOut : Public
+    Int32 AvailableBytesOut : Public
+    Int64 TotalBytesOut : Public
+    System.String Message : Public
+    Ionic.Zlib.CompressionLevel CompressLevel : Public
+    Int32 WindowBits : Public
+    Ionic.Zlib.CompressionStrategy Strategy : Public
+  Properties:
+    Int32 Adler32 'get ' : 
+  Methods:
+    get_Adler32(): PrivateScope, Public, HideBySig, SpecialName
+    InitializeInflate(): PrivateScope, Public, HideBySig
+    InitializeInflate(Boolean): PrivateScope, Public, HideBySig
+    InitializeInflate(Int32): PrivateScope, Public, HideBySig
+    InitializeInflate(Int32, Boolean): PrivateScope, Public, HideBySig
+    Inflate(FlushType): PrivateScope, Public, HideBySig
+    EndInflate(): PrivateScope, Public, HideBySig
+    SyncInflate(): PrivateScope, Public, HideBySig
+    InitializeDeflate(): PrivateScope, Public, HideBySig
+    InitializeDeflate(CompressionLevel): PrivateScope, Public, HideBySig
+    InitializeDeflate(CompressionLevel, Boolean): PrivateScope, Public, HideBySig
+    InitializeDeflate(CompressionLevel, Int32): PrivateScope, Public, HideBySig
+    InitializeDeflate(CompressionLevel, Int32, Boolean): PrivateScope, Public, HideBySig
+    Deflate(FlushType): PrivateScope, Public, HideBySig
+    EndDeflate(): PrivateScope, Public, HideBySig
+    ResetDeflate(): PrivateScope, Public, HideBySig
+    SetDeflateParams(CompressionLevel, CompressionStrategy): PrivateScope, Public, HideBySig
+    SetDictionary(Byte[]): PrivateScope, Public, HideBySig
+Class Ionic.Zlib.ZlibConstants: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    Int32 WindowBitsMax = 15 : Public, Static, Literal, HasDefault
+    Int32 WindowBitsDefault = 15 : Public, Static, Literal, HasDefault
+    Int32 Z_OK = 0 : Public, Static, Literal, HasDefault
+    Int32 Z_STREAM_END = 1 : Public, Static, Literal, HasDefault
+    Int32 Z_NEED_DICT = 2 : Public, Static, Literal, HasDefault
+    Int32 Z_STREAM_ERROR = -2 : Public, Static, Literal, HasDefault
+    Int32 Z_DATA_ERROR = -3 : Public, Static, Literal, HasDefault
+    Int32 Z_BUF_ERROR = -5 : Public, Static, Literal, HasDefault
+    Int32 WorkingBufferSizeDefault = 16384 : Public, Static, Literal, HasDefault
+    Int32 WorkingBufferSizeMin = 1024 : Public, Static, Literal, HasDefault
+Class Ionic.Zlib.ZlibStream: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.IO.Stream
+    Void .ctor(System.IO.Stream, Ionic.Zlib.CompressionMode): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Ionic.Zlib.CompressionMode, Ionic.Zlib.CompressionLevel): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Ionic.Zlib.CompressionMode, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Ionic.Zlib.CompressionMode, Ionic.Zlib.CompressionLevel, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Ionic.Zlib.FlushType FlushMode 'get set' : 
+    Int32 BufferSize 'get set' : 
+    Int64 TotalIn 'get ' : 
+    Int64 TotalOut 'get ' : 
+    Boolean CanRead 'get ' : 
+    Boolean CanSeek 'get ' : 
+    Boolean CanWrite 'get ' : 
+    Int64 Length 'get ' : 
+    Int64 Position 'get set' : 
+  Methods:
+    get_FlushMode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_FlushMode(FlushType): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_BufferSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_BufferSize(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_TotalIn(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TotalOut(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CanRead(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanSeek(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanWrite(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Flush(): PrivateScope, Public, Virtual, HideBySig
+    get_Length(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Position(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Position(Int64): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Read(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    Seek(Int64, SeekOrigin): PrivateScope, Public, Virtual, HideBySig
+    SetLength(Int64): PrivateScope, Public, Virtual, HideBySig
+    Write(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    CompressString(String): PrivateScope, Public, Static, HideBySig
+    CompressBuffer(Byte[]): PrivateScope, Public, Static, HideBySig
+    UncompressString(Byte[]): PrivateScope, Public, Static, HideBySig
+    UncompressBuffer(Byte[]): PrivateScope, Public, Static, HideBySig
+Class Ionic.Crc.CRC32: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int64 TotalBytesRead 'get ' : 
+    Int32 Crc32Result 'get ' : 
+  Methods:
+    get_TotalBytesRead(): PrivateScope, Public, HideBySig, SpecialName
+    get_Crc32Result(): PrivateScope, Public, HideBySig, SpecialName
+    GetCrc32(Stream): PrivateScope, Public, HideBySig
+    GetCrc32AndCopy(Stream, Stream): PrivateScope, Public, HideBySig
+    ComputeCrc32(Int32, Byte): PrivateScope, Public, HideBySig
+    SlurpBlock(Byte[], Int32, Int32): PrivateScope, Public, HideBySig
+    UpdateCRC(Byte): PrivateScope, Public, HideBySig
+    UpdateCRC(Byte, Int32): PrivateScope, Public, HideBySig
+    Combine(Int32, Int32): PrivateScope, Public, HideBySig
+    Reset(): PrivateScope, Public, HideBySig
+Class Ionic.Crc.CrcCalculatorStream: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.IO.Stream
+    Void .ctor(System.IO.Stream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Int64): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Int64, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Int64, Boolean, Ionic.Crc.CRC32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int64 TotalBytesSlurped 'get ' : 
+    Int32 Crc  'get ' : 
+    Boolean LeaveOpen 'get set' : 
+    Boolean CanRead 'get ' : 
+    Boolean CanSeek 'get ' : 
+    Boolean CanWrite 'get ' : 
+    Int64 Length 'get ' : 
+    Int64 Position 'get set' : 
+  Methods:
+    get_TotalBytesSlurped(): PrivateScope, Public, HideBySig, SpecialName
+    get_Crc(): PrivateScope, Public, HideBySig, SpecialName
+    get_LeaveOpen(): PrivateScope, Public, HideBySig, SpecialName
+    set_LeaveOpen(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    Read(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    Write(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    get_CanRead(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanSeek(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanWrite(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Flush(): PrivateScope, Public, Virtual, HideBySig
+    get_Length(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Position(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Position(Int64): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Seek(Int64, SeekOrigin): PrivateScope, Public, Virtual, HideBySig
+    SetLength(Int64): PrivateScope, Public, Virtual, HideBySig
+    Close(): PrivateScope, Public, Virtual, HideBySig

@@ -1,0 +1,2089 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quiz>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>Вопрос 1</text>
+    </category>
+  </question>
+  <!-- question: 16878  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 01</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(2-i)\cdot(1+4i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$6+7i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-2+7i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$2+11i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$2-3i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16879  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 02</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(16+i)\cdot(5+4i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$76+69i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$84+69i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$76-69i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$80+93i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16880  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 03</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(2+2i)\cdot(2i+1)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$-2+6i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$6+6i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-2-6i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-6+6i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16881  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 04</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(9+3i)\cdot(5+5i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$30+60i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$60+60i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$30-60i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$40+15i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16882  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 05</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(-i-3)\cdot(i+4)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$-11-7i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-13-7i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-11+i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-11-i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16883  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 06</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(-7+11i)\cdot(-2i+3)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$1+47i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-19-43i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-43+47i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-43-47i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16884  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 07</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(sqrt5-2i)\cdot(1+i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$sqrt5+2+i(sqrt5-2)$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>$$sqrt5-2+i(sqrt5-2)$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$sqrt5+2-i(sqrt5-2)$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$sqrt5+2+i(sqrt5+2)$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16885  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 08</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(sqrt3-i)\cdot(-sqrt3+i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$-2+i2sqrt3$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-4+i2sqrt3$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-2$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-4+i sqrt3$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16886  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 09</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(1+5i)\cdot(5+i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text>$$5-5i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$10+26i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$5+5i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>$$26i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16887  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 10</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(-2+i)\cdot(\frac{1}{4}+\frac{1}{2}i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$\frac{5}{4}i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$1+\frac{5}{4}i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-1+\frac{5}{4}i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-1-\frac{3}{4}i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16888  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 11</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(i-3)\cdot(\frac{1}{9}+i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$-2-2\frac{8}{9}i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-2-3\frac{1}{9}i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$4+2\frac{8}{9}i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-4-3\frac{1}{9}i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16889  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 12</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(\frac{1}{3}+\frac{1}{2}i)\cdot(-\frac{1}{2}-\frac{1}{3}i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$-\frac{13}{36}i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-\frac{1}{12}+\frac{13}{36}i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$\frac{1}{12}-\frac{13}{36}i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$\frac{13}{36}i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16890  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 13</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(2+i)\cdot(7-6i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text>$$8-5i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>$$20-5i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$14-6i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$20i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16891  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 14</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(5+3i)\cdot(-3-4i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text>$$-15-12i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-27-29i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>$$-3-29i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$2+7i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16892  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 15</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(-\frac{1}{sqrt3}+sqrt3 i)\cdot(\frac{1}{sqrt3}+sqrt3 i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$-3\frac{1}{3}$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-2\frac{2}{3}$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-3\frac{1}{3}-2i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-2\frac{2}{3}+2i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16893  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 16</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(1-i)\cdot(-5-6i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text>$$-5+6i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$1-i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>$$-11-i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-5+5i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16895  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 17</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(-4i-5)\cdot(5-3i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$-37-5i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-13-5i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-37-35i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-25-17i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16909  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 18</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text>Найти произведение комплексных чисел $$(10+4i)\cdot(3+5i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$10+62i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$30+20i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$50+62i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$13+9i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16910  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 19</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text>Найти произведение комплексных чисел $$(-3-4i)\cdot(-3-2i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$1+18i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$17+18i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$1+6i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$9+8i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16911  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 20</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text>Найти произведение комплексных чисел $$(-9-i)\cdot(-1+2i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text>$$9-2i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$7-17i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$8-i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>$$11-17i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16912  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 21</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text>Найти произведение комплексных чисел $$(2-i)\cdot(2+i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$5$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$3i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$3$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$5+4i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16913  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 22</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text>Найти произведение комплексных чисел $$(-4+5i)\cdot(8+3i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text>$$-32+15i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-23+28i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-27$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>$$-47+28i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16914  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 23</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(sqrt2+2i)\cdot(\frac{1}{sqrt2}i+4)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$3sqrt2+9i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$5sqrt2+9i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$5sqrt2+7i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$3sqrt2 + 7i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16915  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 24</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(\frac{1}{4}+\frac{1}{3}i)\cdot(1+2i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text>$$\frac{11}{12}+\frac{5}{6}i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$\frac{5}{12}+\frac{5}{6}i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>$$-\frac{5}{12}+\frac{5}{6}i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-\frac{11}{12}+\frac{5}{6}i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16916  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 25</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text>Найти произведение комплексных чисел $$(-4-4i)\cdot(2+i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text>$$-8-4i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>$$-4-12i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-12-12i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-2-5i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16917  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 26</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(1-4i)\cdot(6-5i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text>$$26-29i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>$$-14-29i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$6-9i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$6+20i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16918  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 27</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(-sqrt2 i-sqrt3)\cdot(sqrt3 i+sqrt2)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$-5i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-2sqrt6 i+1$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$2sqrt6-5i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16919  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 28</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(2-5i)\cdot(2-3i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$-11-16i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$4-i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$19-16i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-19-16i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16920  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 29</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(0,5-4i)\cdot(0,4+0,2i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$1,5+i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-1,7+i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-1,7+0,6i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$1,5+0,6i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16921  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 30</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text>Найти произведение комплексных чисел $$(-2+5i)\cdot(-7+i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$9-37i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-19-37i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-9-37i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$19-37i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16926  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 31</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$ (-10i -2)\cdot(\frac{1}{5}-i)= $$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text>$$4i-10\frac{2}{5}$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>$$-10\frac{2}{5}$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-9\frac{3}{5}$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$ -10i-\frac{2}{5} $$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16927  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 32</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(5-i)\cdot(\frac{1}{5} i-1)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text>$$-4\frac{4}{5}$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-5\frac{1}{5}+2i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$5\frac{1}{5}+2i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>$$-4\frac{4}{5}+2i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16928  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 33</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(7-7i)\cdot(1-20i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$-133-147i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-133+133i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$133-147i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-133-133i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16929  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 34</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(2i+1)\cdot(3i+1)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text>$$7+5i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$1+11i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$1-11i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>$$-5+5i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16930  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 35</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(6+i)\cdot(-8+i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$-49-2i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-48-i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$47-2i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-47-2i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16931  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 36</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(4+i)\cdot(-7+6i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text>$$-22+17i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-22+31i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-34+31i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>$$-34+17i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16932  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 37</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(4+4i)\cdot(-2-i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text>$$-4-4i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-8-16i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-4+4i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>$$-4-12i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16933  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 38</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(6-3i)\cdot(9+3i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$63-9i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$45-9i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$63+45i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$-63-9i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16934  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 39</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(12-5i)\cdot(9+i)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>$$113-33i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$113-57i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$103-57i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$103-33i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 16935  -->
+  <question type="multichoice">
+    <name>
+      <text>Умножение 40</text>
+    </name>
+    <questiontext format="html">
+      <text>Найти произведение комплексных чисел $$(13+i)\cdot(11i+1)=$$</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text>$$24+144i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$2-144i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>$$2+144i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>$$24-144i$$</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>
